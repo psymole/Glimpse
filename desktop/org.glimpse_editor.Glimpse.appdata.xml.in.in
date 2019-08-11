@@ -54,12 +54,6 @@
     <keyword>GIMP</keyword>
     <keyword>Photoshop</keyword>
   </keywords>
-  <kudos>
-    <kudo>HiDpiIcon</kudo>
-    <kudo>HighContrast</kudo>
-    <kudo>ModernToolkit</kudo>
-    <kudo>UserDocs</kudo>
-  </kudos>
   <project_group>GNOME</project_group>
   <translation type="gettext">gimp20</translation>
 
