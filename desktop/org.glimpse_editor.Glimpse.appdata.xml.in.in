@@ -3,13 +3,12 @@
   <id>org.glimpse_editor.Glimpse</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+ AND LGPL-3.0+</project_license>
-  <_name>GNU Image Manipulation Program</_name>
+  <_name>Glimpse</_name>
   <_summary>Create images and edit photographs</_summary>
   <description>
     <_p>
-      GIMP is an acronym for GNU Image Manipulation Program. It is a
-      freely distributed program for such tasks as photo retouching,
-      image composition and image authoring.
+      Glimpse is a freely distributed program for such tasks as photo
+      retouching, image composition and image authoring.
     </_p>
     <_p>
       It has many capabilities. It can be used as a simple paint
@@ -18,29 +17,31 @@
       image format converter, etc.
     </_p>
     <_p>
-      GIMP is expandable and extensible. It is designed to be
+      Glimpse is expandable and extensible. It is designed to be
       augmented with plug-ins and extensions to do just about
       anything. The advanced scripting interface allows everything
       from the simplest task to the most complex image manipulation
-      procedures to be easily scripted. GIMP is available for Linux,
+      procedures to be easily scripted. Glimpse is available for Linux,
       Microsoft Windows and OS X.
     </_p>
   </description>
+  <url type="homepage">https://glimpse-editor.org</url>
+  <!-- url type="help">https://glimpse-editor.org/TODO</url -->
+  <url type="donation">https://opencollective.com/glimpse</url>
   <url type="bugtracker">@BUG_REPORT_URL@</url>
-  <url type="donation">https://www.gimp.org/donating/</url>
-  <url type="help">https://www.gimp.org/docs/</url>
-  <url type="homepage">https://www.gimp.org/</url>
-  <screenshots>
+  <!-- update_contact>TODO@glimpse-editor.org</update_contact -->
+
+  <!-- screenshots>
     <screenshot type="default">
-      <image>https://www.gimp.org/screenshots/Screenshot-gimp-2.10-painting.jpg</image>
-      <_caption>Painting in GIMP</_caption>
+      <image>https://glimpse-editor.org/TODO1.png</image>
+      <_caption>Doing cool things with Glimpse</_caption>
     </screenshot>
     <screenshot type="default">
-      <image>https://www.gimp.org/screenshots/Screenshot-gimp-2.10-photo-editing.jpg</image>
-      <_caption>Photo editing in GIMP</_caption>
+      <image>https://glimpse-editor.org/TODO2.png</image>
+      <_caption>Doing more great things with Glimpse</_caption>
     </screenshot>
-  </screenshots>
-  <update_contact>gimp-developer-list_at_gnome.org</update_contact>
+  </screenshots -->
+
   <keywords>
     <keyword>GIMP</keyword>
     <keyword>Photoshop</keyword>
