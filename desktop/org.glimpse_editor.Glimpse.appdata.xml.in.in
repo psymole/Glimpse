@@ -57,12 +57,6 @@
   <translation type="gettext">gimp20</translation>
 
   <launchable type="desktop-id">org.glimpse_editor.Glimpse.desktop</launchable>
-  <provides>
-    <binary>@GLIMPSE_COMMAND@</binary>
-    <!-- Fix the ID renaming, and things like past reviews made on the
-         older ID in software installers. -->
-    <id>gimp.desktop</id>
-  </provides>
 
   <!-- releases>
     <release version="1.0" date="YYYY-MM-DD">
