@@ -54,7 +54,6 @@
     <keyword>GIMP</keyword>
     <keyword>Photoshop</keyword>
   </keywords>
-  <project_group>GNOME</project_group>
   <translation type="gettext">gimp20</translation>
 
   <launchable type="desktop-id">org.glimpse_editor.Glimpse.desktop</launchable>
