@@ -120,7 +120,7 @@ about_dialog_create (GimpContext *context)
                              "license",            GLIMPSE_LICENSE,
                              "wrap-license",       TRUE,
                              "logo",               pixbuf,
-                             "website",            "https://getglimpse.app/",
+                             "website",            "https://glimpse-editor.org/",
                              "website-label",      _("Visit the Glimpse website"),
                              "authors",            authors,
                              "artists",            artists,

@@ -6,14 +6,18 @@ to have the packages listed in glimpse-vagrant.yml installed on your system.
 
 Compilation
 -----------
-Your first port of call should be the upstream documentation: https://wiki.gimp.org/wiki/Hacking:Building/Linux
 
-You can also check the glimpse-vagrant.sh file to see which environment variables you need to set and build steps you should follow.
+For Linux, your first port of call should be the upstream documentation:
+https://wiki.gimp.org/wiki/Hacking:Building/Linux
+
+You can also check the glimpse-vagrant.sh file to see which environment
+variables you need to set and build steps you should follow.
 
 
 Quick start
 -----------
-Ensure you have Vagrant and Oracle Virtualbox installed, then follow these steps from the top directory of this git repository:
+Ensure you have Vagrant and Oracle Virtualbox installed, then follow
+these steps from the top directory of this git repository:
 
 $ vagrant up
 $ vagrant ssh
@@ -21,7 +25,9 @@ $ cd /vagrant
 $ sh glimpse-vagrant.sh
 $ ./glimpse-prefix/bin/glimpse
 
-If you copy the glimpse-vagrant.sh, give it a new name, then remove the steps for BABL, GEGL and MyPaint dependencies you will have a quick and easy way of rebuilding Glimpse after you make a code change.
+If you copy the glimpse-vagrant.sh, give it a new name, then remove the steps
+for BABL, GEGL and MyPaint dependencies you will have a quick and easy way of
+rebuilding Glimpse after you make a code change.
 
 
 Auto-generated Files
@@ -36,7 +42,8 @@ pdb/groups.
 
 Hackordnung
 -----------
-While we are still following the upstream code in "soft forks" we recommend you continue to follow their code style:
+While we are still following the upstream code in "soft forks" we recommend you
+continue to follow their code style:
 
 "We encourage you to follow the GNU IMP coding style throughout the GNU IMP
 project.  For the core components (application and libs) this coding
