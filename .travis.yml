@@ -1,5 +1,4 @@
 language: c
-
 os: linux
 dist: bionic
 addons:
@@ -46,39 +45,42 @@ addons:
     - xvfb
     - gnome-icon-theme
     - llvm
+    - autopoint
+    - flatpak
 env:
-  - INSTALL_PREFIX=$TRAVIS_BUILD_DIR/glimpse-prefix
-  - SRC_PREFIX=$TRAVIS_BUILD_DIR
-  - PATH=$INSTALL_PREFIX/bin:$PATH
-  - PKG_CONFIG_PATH=$INSTALL_PREFIX/lib/pkgconfig:$INSTALL_PREFIX/lib/x86_64-linux-gnu/pkgconfig:$INSTALL_PREFIX/share/pkgconfig:$PKG_CONFIG_PATH
-  - LD_LIBRARY_PATH=$INSTALL_PREFIX/lib:$INSTALL_PREFIX/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
-  - ACLOCAL_FLAGS="-I $INSTALL_PREFIX/share/aclocal $ACLOCAL_FLAGS"
-
+- INSTALL_PREFIX=$TRAVIS_BUILD_DIR/glimpse-prefix SRC_PREFIX=$TRAVIS_BUILD_DIR PATH=$INSTALL_PREFIX/bin:$PATH
+  PKG_CONFIG_PATH=$INSTALL_PREFIX/lib/pkgconfig:$INSTALL_PREFIX/lib/x86_64-linux-gnu/pkgconfig:$INSTALL_PREFIX/share/pkgconfig:$PKG_CONFIG_PATH
+  LD_LIBRARY_PATH=$INSTALL_PREFIX/lib:$INSTALL_PREFIX/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
+  ACLOCAL_FLAGS="-I $INSTALL_PREFIX/share/aclocal $ACLOCAL_FLAGS"
 before_install:
-  - mkdir -p $INSTALL_PREFIX
-  - mkdir -p $INSTALL_PREFIX/share/aclocal
-  - git submodule update --init
-
+- mkdir -p $INSTALL_PREFIX/share/aclocal
+- git submodule update --init
 script:
-  - cd $SRC_PREFIX/babl
-  - ./autogen.sh --prefix=$INSTALL_PREFIX
-  - make
-  - make install
-  - cd $SRC_PREFIX/mypaint-brushes
-  - ./autogen.sh --prefix=$INSTALL_PREFIX
-  - ./configure --prefix=$INSTALL_PREFIX
-  - make
-  - make install
-  - cd $SRC_PREFIX/libmypaint
-  - ./autogen.sh --prefix=$INSTALL_PREFIX
-  - ./configure --prefix=$INSTALL_PREFIX
-  - make
-  - make install
-  - cd $SRC_PREFIX/gegl
-  - ./autogen.sh --prefix=$INSTALL_PREFIX
-  - make
-  - make install
-  - cd $SRC_PREFIX
-  - ./autogen.sh --prefix=$INSTALL_PREFIX
-  - make
-  - make install
+- cd $SRC_PREFIX/babl
+- "./autogen.sh --prefix=$INSTALL_PREFIX"
+- make && make install
+- cd $SRC_PREFIX/mypaint-brushes
+- "./autogen.sh --prefix=$INSTALL_PREFIX"
+- "./configure --prefix=$INSTALL_PREFIX"
+- make && make install
+- cd $SRC_PREFIX/libmypaint
+- "./autogen.sh --prefix=$INSTALL_PREFIX"
+- "./configure --prefix=$INSTALL_PREFIX"
+- make && make install
+- cd $SRC_PREFIX/gegl
+- "./autogen.sh --prefix=$INSTALL_PREFIX"
+- make && make install
+- cd $SRC_PREFIX
+- "./autogen.sh --prefix=$INSTALL_PREFIX"
+- make && make install
+before_deploy:
+- tar -zcvf glimpse-linux-test.tar.gz glimpse-prefix/
+deploy:
+  provider: releases
+  api_key:
+    secure: jDxsbEx9CgfWWTEfpJy+BsTLbJt5BtjsgGOhFG91qQRawHCxGqwpAb3GtwdwpAJS0SVOlwxZ9SXxW/gY4juDkMZeH2nQfDRgZ18J+ZEMQqJRqc+xqjtReLzX29X7uhKi/uX2MMwnuGAloK7P2CpHwsit95Vw0SJzj96v3h056OKBbnTvr/UjrOqVWjd6ufrXyI7EBXqzqq0meKaZBKxako123ZTaB2WADVGMoU1Y1gQumEOzWbbkukSK0o/4r4Tn4onTiaUsriv60TAVkeUkMJKJjy78c7v6WnxrDMzg00oDbMPvNE0R8IjSmLvrqIyw/5EdWKbnXBXyEkEbQ5yIjNZP4yBISjWRLb29hFzTrzn5BZsgK/iRyWc0UgbFaKHwcwjo0C9Jqc7UvzmRSitR3iaaMNDDJJA6Lpe6kHHCn+9sYN0Lm2nbbWlUc3CTkqNrkZvMP99uhlfYfUXn521a02JHV+Qd8db0dawC4uYFHwubTWuWoPfGD1Fldq/wtMhFvYxkrDob0B++Oo/b6JQAOPu+OHFxJblh9X1zB+eRxStue3dNhrErlQzXVu2DRaCQEd/Zzxgc3BQX+z/5pJj5tIJyTmM7QZ08Q321kYbQXmHXD/U79B1rxc/PfEpuHvLwKjl8u8rY4Ab3TOefv4RW103Vnm81VeUH9JJxWNXcN+0=
+  file: glimpse-linux-test.tar.gz
+  skip_cleanup: true
+  draft: true
+  on:
+    branch: travis-ci
