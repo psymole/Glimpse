@@ -1,0 +1,84 @@
+language: c
+
+os: linux
+dist: bionic
+addons:
+  apt:
+    update: true
+    packages:
+    - git
+    - build-essential
+    - python-dev
+    - python-gtk2-dev
+    - make
+    - autoconf
+    - libgtk2.0-dev
+    - libwxgtk3.0-dev
+    - libjson-c-dev
+    - libjson-glib-dev
+    - gtk-doc-tools
+    - intltool
+    - libgirepository1.0-dev
+    - asciidoc
+    - libsuitesparse-dev
+    - libumfpack5
+    - libopenexr-dev
+    - libspiro-dev
+    - libjpeg-dev
+    - libpng-dev
+    - libtiff-dev
+    - libwebp-dev
+    - libgexiv2-dev
+    - libraw-dev
+    - librsvg2-dev
+    - python-cairo-dev
+    - libpoppler-glib-dev
+    - libbz2-1.0
+    - cmake-extras
+    - libbz2-dev
+    - libwebkitgtk-dev
+    - libgs-dev
+    - libopenjp2-7-dev
+    - libmng-dev
+    - libheif-dev
+    - libwmf-dev
+    - libxpm-dev
+    - xvfb
+    - gnome-icon-theme
+    - llvm
+env:
+  - INSTALL_PREFIX=$TRAVIS_BUILD_DIR/glimpse-prefix
+  - SRC_PREFIX=$TRAVIS_BUILD_DIR
+  - PATH=$INSTALL_PREFIX/bin:$PATH
+  - PKG_CONFIG_PATH=$INSTALL_PREFIX/lib/pkgconfig:$INSTALL_PREFIX/lib/x86_64-linux-gnu/pkgconfig:$INSTALL_PREFIX/share/pkgconfig:$PKG_CONFIG_PATH
+  - LD_LIBRARY_PATH=$INSTALL_PREFIX/lib:$INSTALL_PREFIX/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
+  - ACLOCAL_FLAGS="-I $INSTALL_PREFIX/share/aclocal $ACLOCAL_FLAGS"
+
+before_install:
+  - mkdir -p $INSTALL_PREFIX
+  - mkdir -p $INSTALL_PREFIX/share/aclocal
+  - git submodule update --init
+
+script:
+  - cd $SRC_PREFIX/babl
+  - ./autogen.sh --prefix=$INSTALL_PREFIX
+  - make
+  - make install
+  - cd $SRC_PREFIX/mypaint-brushes
+  - ./autogen.sh --prefix=$INSTALL_PREFIX
+  - ./configure --prefix=$INSTALL_PREFIX
+  - make
+  - make install
+  - cd $SRC_PREFIX/libmypaint
+  - ./autogen.sh --prefix=$INSTALL_PREFIX
+  - ./configure --prefix=$INSTALL_PREFIX
+  - make
+  - make install
+  - cd $SRC_PREFIX/gegl
+  - ./autogen.sh --prefix=$INSTALL_PREFIX
+  - make
+  - make install
+  - cd $SRC_PREFIX
+  - ./autogen.sh --prefix=$INSTALL_PREFIX
+  - make
+  - make install
