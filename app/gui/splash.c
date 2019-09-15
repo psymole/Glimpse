@@ -516,7 +516,7 @@ splash_image_load (gint      max_width,
 
   /* Release splash image. */
   filename = g_build_filename (gimp_data_directory (),
-                               "images", "gimp-splash.png", NULL);
+                               "images", "glimpse-splash.png", NULL);
   animation = splash_image_load_from_path (filename,
                                            max_width, max_height,
                                            be_verbose);

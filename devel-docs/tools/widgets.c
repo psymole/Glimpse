@@ -453,7 +453,7 @@ create_file_entry (void)
   vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
   align = gtk_alignment_new (0.5, 0.5, 0.5, 0.0);
   entry = gimp_file_entry_new ("File Entry",
-                               "wilber.png",
+                               "icon_256.png",
                                FALSE, TRUE);
   gtk_container_add (GTK_CONTAINER (align), entry);
   gtk_box_pack_start (GTK_BOX (vbox), align, TRUE, TRUE, 0);

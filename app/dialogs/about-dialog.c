@@ -212,7 +212,7 @@ about_dialog_load_logo (void)
 #ifdef GIMP_UNSTABLE
                                    "gimp-devel-logo.png",
 #else
-                                   "gimp-logo.png",
+                                   "icon_128.png",
 #endif
                                    NULL);
 
