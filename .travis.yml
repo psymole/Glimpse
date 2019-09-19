@@ -56,20 +56,20 @@ before_install:
 - git submodule update --init
 before_script:
 - cd $SRC_PREFIX/babl
-- "./autogen.sh --prefix=$INSTALL_PREFIX"
+- "./autogen.sh --prefix=$INSTALL_PREFIX" --disable-docs
 - make && make install
 - cd $SRC_PREFIX/mypaint-brushes
-- "./autogen.sh --prefix=$INSTALL_PREFIX"
+- "./autogen.sh
 - "./configure --prefix=$INSTALL_PREFIX"
 - make && make install
 - cd $SRC_PREFIX/libmypaint
-- "./autogen.sh --prefix=$INSTALL_PREFIX"
+- "./autogen.sh
 - "./configure --prefix=$INSTALL_PREFIX"
 - make && make install
 - cd $SRC_PREFIX/gegl
-- "./autogen.sh --prefix=$INSTALL_PREFIX"
+- "./autogen.sh --prefix=$INSTALL_PREFIX" --enable-gtk-doc-html=no --disable-docs
 - make && make install
 script:
 - cd $SRC_PREFIX
-- "./autogen.sh --prefix=$INSTALL_PREFIX"
+- "./autogen.sh --prefix=$INSTALL_PREFIX" --disable-gtk-doc
 - make && make install
