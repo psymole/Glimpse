@@ -8,7 +8,7 @@ endif
 
 AM_CPPFLAGS = \
 	-DG_LOG_DOMAIN=\"Gimp-GUI\"		\
-	-DGIMP_COMMAND=\"@GIMP_COMMAND@\"	\
+	-DGLIMPSE_COMMAND=\"@GLIMPSE_COMMAND@\"	\
 	-I$(top_builddir)			\
 	-I$(top_srcdir)				\
 	-I$(top_builddir)/app			\

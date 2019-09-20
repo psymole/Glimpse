@@ -1477,9 +1477,9 @@ AC_SUBST(SCREENSHOT_LIBS)
 AC_SUBST(DOC_SHOOTER)
 
 
-GIMP_COMMAND='glimpse-glimpse_app_version'
+GLIMPSE_COMMAND='glimpse-glimpse_app_version'
 
-AC_SUBST(GIMP_COMMAND)
+AC_SUBST(GLIMPSE_COMMAND)
 
 
 ############
