@@ -2,9 +2,9 @@ app/widgets/gtkscalebutton.c
 build/windows/installer/lang/setup.isl.in
 data/tags/gimp-tags-default.xml.in
 data/tips/gimp-tips.xml.in
-desktop/app.getglimpse.Glimpse.appdata.xml.in
+desktop/org.glimpse_editor.Glimpse.appdata.xml.in
 desktop/glimpse-data-extras.metainfo.xml.in
-desktop/app.getglimpse.Glimpse.desktop.in
+desktop/org.glimpse_editor.Glimpse.desktop.in
 libgimp
 libgimpbase
 libgimpcolor

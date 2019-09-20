@@ -75,7 +75,7 @@ CLEANFILES = $(gen_sources)
 $(srcdir)/gimpdbusservice.c: $(libappgui_a_built_sources)
 
 $(libappgui_a_built_sources): $(srcdir)/dbus-service.xml
-	$(GDBUS_CODEGEN) --interface-prefix app.getglimpse.Glimpse. \
+	$(GDBUS_CODEGEN) --interface-prefix org.glimpse_editor.Glimpse. \
 			 --generate-c-code gimpdbusservice-generated \
 			 --c-namespace GimpDBusService \
 			 $(srcdir)/dbus-service.xml

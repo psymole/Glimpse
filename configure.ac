@@ -2974,8 +2974,8 @@ data/tool-presets/Selection/Makefile
 data/tool-presets/Sketch/Makefile
 desktop/Makefile
 desktop/glimpse-data-extras.metainfo.xml.in
-desktop/app.getglimpse.Glimpse.desktop.in
-desktop/app.getglimpse.Glimpse.appdata.xml.in
+desktop/org.glimpse_editor.Glimpse.desktop.in
+desktop/org.glimpse_editor.Glimpse.appdata.xml.in
 desktop/test-appdata.sh
 etc/Makefile
 etc/gimprc

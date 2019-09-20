@@ -23,7 +23,7 @@
      to sort out issues with their builds.
 
  ( ) Make sure we have a <release> tag inside
-     desktop/app.getglimpse.Glimpse.appdata.xml.in.in for this upcoming
+     desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in for this upcoming
      version, with type="development" for development or RC releases
      (set type="stable", or just no type for stable releases).
 
@@ -72,7 +72,7 @@
 
  ( ) If ever the actual release date evolved and is different from the
      planned date, update the "date" in the <release> tag of the appdata
-     in: desktop/app.getglimpse.Glimpse.appdata.xml.in
+     in: desktop/org.glimpse_editor.Glimpse.appdata.xml.in
 
  ( ) Bump the version number to an even micro in configure.ac and
      commit this change. It should be the version number of the

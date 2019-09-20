@@ -1,5 +1,5 @@
 {
-  "id": "app.getglimpse.Glimpse",
+  "id": "org.glimpse_editor.Glimpse",
   "branch": "stable",
   "runtime": "org.gnome.Platform",
   "runtime-version": "3.32",

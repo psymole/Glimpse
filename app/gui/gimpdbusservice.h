@@ -25,13 +25,13 @@
 
 #include "gimpdbusservice-generated.h"
 
-/* service name and path should really be app.getglimpse.Glimpse and
- * /app/getglimpse/Glimpse and only the interface be called UI.
+/* service name and path should really be org.glimpse_editor.Glimpse and
+ * /org/glimpse_editor/Glimpse and only the interface be called UI.
  */
-#define GIMP_DBUS_SERVICE_NAME   "app.getglimpse.Glimpse.UI"
-#define GIMP_DBUS_SERVICE_PATH   "/app/getglimpse/Glimpse/UI"
-#define GIMP_DBUS_INTERFACE_NAME "app.getglimpse.Glimpse.UI"
-#define GIMP_DBUS_INTERFACE_PATH "/app/getglimpse/Glimpse/UI"
+#define GIMP_DBUS_SERVICE_NAME   "org.glimpse_editor.Glimpse.UI"
+#define GIMP_DBUS_SERVICE_PATH   "/org/glimpse_editor/Glimpse/UI"
+#define GIMP_DBUS_INTERFACE_NAME "org.glimpse_editor.Glimpse.UI"
+#define GIMP_DBUS_INTERFACE_PATH "/org/glimpse_editor/Glimpse/UI"
 
 
 #define GIMP_TYPE_DBUS_SERVICE            (gimp_dbus_service_get_type ())

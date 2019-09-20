@@ -3,9 +3,9 @@
 
 [encoding: UTF-8]
 
-desktop/app.getglimpse.Glimpse.appdata.xml.in.in
+desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in
 desktop/glimpse-data-extras.metainfo.xml.in.in
-desktop/app.getglimpse.Glimpse.desktop.in.in
+desktop/org.glimpse_editor.Glimpse.desktop.in.in
 
 app/about.h
 app/app.c
