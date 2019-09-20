@@ -143,7 +143,7 @@ parts:
     - ibus-gtk
     - ibus-gtk3
     - libibus-1.0-5
-    after: [desktop-patch]
+  #  after: [desktop-patch]
     override-pull: |
       snapcraftctl pull
       patch -Np1 < $SNAPCRAFT_STAGE/desktop-launch.patch
@@ -151,11 +151,11 @@ parts:
       usr/lib/$SNAPCRAFT_ARCH_TRIPLET/gtk-2.0: usr/lib/gtk-2.0
       usr/lib/$SNAPCRAFT_ARCH_TRIPLET/gtk-3.0: usr/lib/gtk-3.0
 
-  desktop-patch:
-    source: build/patches
-    source-type: local
-    plugin: dump
-    prime: [-*]
+ # desktop-patch:
+ #   source: build/patches
+ #   source-type: local
+ #   plugin: dump
+ #   prime: [-*]
 
   gtk-locales:
     plugin: nil
