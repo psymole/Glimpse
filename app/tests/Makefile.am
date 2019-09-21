@@ -159,7 +159,7 @@ gimpdir-output:
 	mkdir -p gimpdir-output/gradients
 
 gimp-test-icon-theme:
-	mkdir -p $$(echo $$(find $(top_srcdir)/icons/Color -name [0-9][0-9] -type d | sed 's@.*/\([0-9][0-9]\)$$@gimp-test-icon-theme/hicolor/\1x\1@'))
+	mkdir -p $$(echo $$(find $(top_srcdir)/icons/Legacy -name [0-9][0-9] -type d | sed 's@.*/\([0-9][0-9]\)$$@gimp-test-icon-theme/hicolor/\1x\1@'))
 	for dir in $$(echo $$(find $(top_srcdir)/icons/Legacy/ -name [0-9][0-9] -type d | sed 's@.*/\([0-9][0-9]\)$$@\1@')); do \
 		(cd gimp-test-icon-theme/hicolor/$${dir}x$${dir}/ && \
 		$(LN_S) $(abs_top_srcdir)/icons/Legacy/$${dir} apps); \
