@@ -72,6 +72,10 @@ addons:
     - python-dev
     - python-gtk2-dev
 
+    # For the tests
+    - appstream-util
+    - desktop-file-utils
+
 env:
 - INSTALL_PREFIX=/tmp/glimpse-prefix
   SRC_PREFIX=$TRAVIS_BUILD_DIR
@@ -101,3 +105,4 @@ script:
 - cd $SRC_PREFIX
 - "./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --without-xvfb-run"
 - make && make install
+- make check
