@@ -5,5 +5,7 @@ data/tags
 data/tips
 desktop
 desktop/org.glimpse_editor.Glimpse.desktop.in
+gegl
+libmypaint
 plug-ins
 tools
