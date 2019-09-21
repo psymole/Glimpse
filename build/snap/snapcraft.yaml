@@ -3,7 +3,7 @@ version: '0.1'
 summary: Open Source Image Manipulation Program
 description: |
   Glimpse is a downstream fork of the GNU Image Manipulation Program
-icon: build/snap/glimpse.png
+icon: snap/local/glimpse.png
 grade: stable
 confinement: strict
 base: core18
@@ -57,13 +57,13 @@ slots:
   dbus-glimpse:
     interface: dbus
     bus: session
-    name: org.glimpse.glimpse.UI
+    name: org.glimpse_editor.Glimpse
 
 apps:
   glimpse:
-    command: $SNAP/usr/bin/glimpse
-    desktop: usr/share/applications/app.getglimpse.Glimpse.desktop
-    common-id: org.glimpse.glimpse
+    command: desktop-launch $SNAP/usr/bin/glimpse
+    desktop: usr/share/applications/org.glimpse_editor.Glimpse.desktop
+    common-id: org.glimpse_editor.Glimpse
     environment:
       GTK_EXE_PREFIX: $SNAP/usr
       GIMP2_LOCALEDIR: $SNAP/usr/share/locale
@@ -143,7 +143,7 @@ parts:
     - ibus-gtk
     - ibus-gtk3
     - libibus-1.0-5
-  #  after: [desktop-patch]
+    after: [desktop-patch]
     override-pull: |
       snapcraftctl pull
       patch -Np1 < $SNAPCRAFT_STAGE/desktop-launch.patch
@@ -151,11 +151,11 @@ parts:
       usr/lib/$SNAPCRAFT_ARCH_TRIPLET/gtk-2.0: usr/lib/gtk-2.0
       usr/lib/$SNAPCRAFT_ARCH_TRIPLET/gtk-3.0: usr/lib/gtk-3.0
 
- # desktop-patch:
- #   source: build/patches
- #   source-type: local
- #   plugin: dump
- #   prime: [-*]
+  desktop-patch:
+    source: snap/local/patches/
+    source-type: local
+    plugin: dump
+    prime: [-* ]
 
   gtk-locales:
     plugin: nil
@@ -325,7 +325,26 @@ parts:
     configflags:
     - --prefix=/usr
 
-  # https://www.gimp.org/downloads
+  # https://download.gimp.org/mirror/pub/gimp/help
+  gimp-help:
+    after: [glimpse]
+    plugin: autotools
+    source: https://download.gimp.org/mirror/pub/gimp/help/gimp-help-2.8.2.tar.bz2
+    source-checksum: md5/a591c8974b2f4f584d0a769d52ed6c5b
+    configflags:
+    - --prefix=/usr
+    build-environment:
+      # Ensure system python is used, not from staging area
+      - PATH: /usr/bin:$PATH
+    build-packages:
+    - dblatex
+    - docbook2odf
+    - pngcrush
+    - pngnq
+    - python
+    - python-libxml2
+
+  # Manually pulling from my git
   glimpse:
     after:
     - desktop-gtk
@@ -336,24 +355,27 @@ parts:
     plugin: autotools
     source: .
     configflags:
+#Flags from glimps flatpack
     - --disable-docs
     - --disable-gtk-doc
     - --disable-gtk-doc-html
     - --with-icc-directory=/run/host/usr/share/color/icc/
-    #from glimpse flatpack up
+#End flags from glimps flatpack
     - --prefix=/usr
     - --sysconfdir=/etc
+#   - --with-bug-report-url=https://github.com/snapcrafters/gimp/issues/
     build-environment:
       - BABL_PATH: $SNAPCRAFT_STAGE/usr/lib/babl-0.1
       - GEGL_PATH: $SNAPCRAFT_STAGE/usr/lib/gegl-0.4
       - XDG_DATA_DIRS: $SNAPCRAFT_STAGE/usr/share:/usr/local/share:/usr/share
       - PYTHON: /usr/bin/python2.7
     override-build: |
-      sed -i 's|^Icon=.*|Icon=/usr/share/icons/hicolor/256x256/apps/glimpse.png|' desktop/app.getglimpse.Glimpse.desktop.in.in
+      sed -i 's|^Icon=.*|Icon=/usr/share/icons/hicolor/256x256/apps/org.glimpse_editor.Glimpse.png|' desktop/org.glimpse_editor.Glimpse.desktop.in.in
 
       snapcraftctl build
 
-      # sed -i -E 's|^# \(mypaint-brush-path .*$|(mypaint-brush-path "/usr/share/mypaint-data/1.0/brushes:~/.mypaint/brushes")|' $SNAPCRAFT_PART_INSTALL/etc/gimp/2.0/gimprc
+      sed -i -E 's|^# \(mypaint-brush-path .*$|(mypaint-brush-path "/usr/share/mypaint-data/1.0/brushes:~/.mypaint/brushes")|' $SNAPCRAFT_PART_INSTALL/etc/glimpse/2.0/gimprc
+
     build-packages:
     - glib-networking
     - gobject-introspection
