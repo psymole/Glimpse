@@ -283,7 +283,7 @@ gimp_directory (void)
       library_dir = [path objectAtIndex:0];
 
       gimp_dir = g_build_filename ([library_dir UTF8String],
-                                   GIMPDIR, GIMP_USER_VERSION, NULL);
+                                   GIMPDIR, GLIMPSE_APP_VERSION, NULL);
 
       [pool drain];
 
@@ -292,7 +292,7 @@ gimp_directory (void)
       gchar *conf_dir = get_special_folder (CSIDL_APPDATA);
 
       gimp_dir = g_build_filename (conf_dir,
-                                   GIMPDIR, GIMP_USER_VERSION, NULL);
+                                   GIMPDIR, GLIMPSE_APP_VERSION, NULL);
       g_free(conf_dir);
 
 #else /* UNIX */
@@ -301,7 +301,7 @@ gimp_directory (void)
        * and non-empty string
        */
       gimp_dir = g_build_filename (g_get_user_config_dir (),
-                                   GIMPDIR, GIMP_USER_VERSION, NULL);
+                                   GIMPDIR, GLIMPSE_APP_VERSION, NULL);
 
 #endif /* PLATFORM_OSX */
     }

@@ -2599,9 +2599,9 @@ AC_ARG_ENABLE(gimp-console, [  --enable-gimp-console   build a console-only bina
 AM_CONDITIONAL(ENABLE_GIMP_CONSOLE, test "x$enable_gimp_console" != xno)
 
 
-# Possibly change default gimpdir from $XDG_CONFIG_HOME/GIMP/gimp_user_version
-gimpdir=GIMP
-AC_ARG_WITH(gimpdir, [  --with-gimpdir=DIR      change default gimpdir from $XDG_CONFIG_HOME/GIMP/gimp_user_version to $XDG_CONFIG_HOME/DIR/gimp_user_version, or to DIR if DIR is an absolute path],
+# Possibly change default gimpdir from $XDG_CONFIG_HOME/Glimpse/glimpse_app_version
+gimpdir=Glimpse
+AC_ARG_WITH(gimpdir, [  --with-gimpdir=DIR      change default gimpdir from $XDG_CONFIG_HOME/Glimpse/glimpse_app_version to $XDG_CONFIG_HOME/DIR/glimpse_app_version, or to DIR if DIR is an absolute path],
 if eval "test x$with_gimpdir != x"; then
   if eval "test x$with_gimpdir != xyes"; then
     gimpdir=$with_gimpdir
@@ -2615,7 +2615,7 @@ case "$gimpdir" in
     manpage_gimpdir="$gimpdir"
     ;;
   *)
-    manpage_gimpdir="\\fB\$XDG_CONFIG_HOME\\fP/$gimpdir/gimp_user_version"
+    manpage_gimpdir="\\fB\$XDG_CONFIG_HOME\\fP/$gimpdir/glimpse_app_version"
     ;;
 esac
 
