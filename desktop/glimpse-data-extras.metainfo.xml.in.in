@@ -2,7 +2,7 @@
 <!-- Copyright 2015 Jiri Eischmann <eischmann@redhat.com> -->
 <component type="addon">
   <id>glimpse-data-extras</id>
-  <extends>app.getglimpse.Glimpse</extends>
+  <extends>org.glimpse_editor.Glimpse</extends>
   <_name>Extra files for GIMP</_name>
   <_summary>Patterns, gradients, and other extra files for GIMP</_summary>
   <url type="homepage">https://www.gimp.org/</url>

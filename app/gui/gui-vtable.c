@@ -833,7 +833,7 @@ gui_recent_list_add_file (Gimp        *gimp,
   recent.mime_type    = (mime_type ?
                          (gchar *) mime_type : "application/octet-stream");
   recent.app_name     = "Glimpse";
-  recent.app_exec     = GIMP_COMMAND " %u";
+  recent.app_exec     = GLIMPSE_COMMAND " %u";
   recent.groups       = (gchar **) groups;
   recent.is_private   = FALSE;
 

@@ -2,7 +2,7 @@
 
 <node>
 
-  <interface name="app.getglimpse.Glimpse.UI">
+  <interface name="org.glimpse_editor.Glimpse.UI">
 
     <method name="Open">
       <arg type="s" name="uri" direction="in" />

@@ -1,14 +1,14 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-_Name=GNU Image Manipulation Program
+_Name=Glimpse Image Editor
 _GenericName=Image Editor
-_Comment=Create images and edit photographs
+_Comment=Create and edit images
 # Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-_Keywords=GIMP;graphic;design;illustration;painting;
-Exec=@GIMP_COMMAND@ %U
+_Keywords=graphic;design;illustration;painting;photography;gimp
+Exec=@GLIMPSE_COMMAND@ %U
 TryExec=glimpse-@GLIMPSE_APP_VERSION@
-Icon=app.getglimpse.Glimpse
+Icon=org.glimpse_editor.Glimpse
 Terminal=false
 Categories=Graphics;2DGraphics;RasterGraphics;GTK;
 StartupNotify=true

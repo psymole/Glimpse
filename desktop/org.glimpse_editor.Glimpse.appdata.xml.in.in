@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 1995-2017 Spencer Kimball, Peter Mattis, and others -->
 <component type="desktop">
-  <id>app.getglimpse.Glimpse</id>
+  <id>org.glimpse_editor.Glimpse</id>
 
   <!--
       The tag 'metadata_license' means the licence of this file, not the whole
@@ -63,9 +63,9 @@
   <project_group>GNOME</project_group>
   <translation type="gettext">gimp20</translation>
 
-  <launchable type="desktop-id">app.getglimpse.Glimpse.desktop</launchable>
+  <launchable type="desktop-id">org.glimpse_editor.Glimpse.desktop</launchable>
   <provides>
-    <binary>@GIMP_COMMAND@</binary>
+    <binary>@GLIMPSE_COMMAND@</binary>
     <!-- Fix the ID renaming, and things like past reviews made on the
          older ID in software installers. -->
     <id>gimp.desktop</id>

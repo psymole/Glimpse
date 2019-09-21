@@ -375,7 +375,7 @@ gui_dbus_bus_acquired (GDBusConnection *connection,
   GObject             *service;
 
   /* this should use GIMP_DBUS_SERVICE_PATH, but that's historically wrong */
-  dbus_manager = g_dbus_object_manager_server_new ("/app/getglimpse/Glimpse");
+  dbus_manager = g_dbus_object_manager_server_new ("/org/glimpse_editor/Glimpse");
 
   object = g_dbus_object_skeleton_new (GIMP_DBUS_INTERFACE_PATH);
 

@@ -4,6 +4,6 @@ build/windows/installer/lang/setup.isl.in
 data/tags
 data/tips
 desktop
-desktop/app.getglimpse.Glimpse.desktop.in
+desktop/org.glimpse_editor.Glimpse.desktop.in
 plug-ins
 tools

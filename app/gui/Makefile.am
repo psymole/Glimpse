@@ -8,7 +8,7 @@ endif
 
 AM_CPPFLAGS = \
 	-DG_LOG_DOMAIN=\"Gimp-GUI\"		\
-	-DGIMP_COMMAND=\"@GIMP_COMMAND@\"	\
+	-DGLIMPSE_COMMAND=\"@GLIMPSE_COMMAND@\"	\
 	-I$(top_builddir)			\
 	-I$(top_srcdir)				\
 	-I$(top_builddir)/app			\
@@ -75,7 +75,7 @@ CLEANFILES = $(gen_sources)
 $(srcdir)/gimpdbusservice.c: $(libappgui_a_built_sources)
 
 $(libappgui_a_built_sources): $(srcdir)/dbus-service.xml
-	$(GDBUS_CODEGEN) --interface-prefix app.getglimpse.Glimpse. \
+	$(GDBUS_CODEGEN) --interface-prefix org.glimpse_editor.Glimpse. \
 			 --generate-c-code gimpdbusservice-generated \
 			 --c-namespace GimpDBusService \
 			 $(srcdir)/dbus-service.xml
