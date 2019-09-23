@@ -1,9 +1,10 @@
 /Makefile.in
 /Makefile
-/org.gimp.GIMP.appdata.xml.in
-/org.gimp.GIMP.appdata.xml
-/gimp.desktop.in
-/gimp.desktop
-/gimp-data-extras.metainfo.xml.in
-/gimp-data-extras.metainfo.xml
+/org.glimpse_editor.Glimpse.appdata.xml.in
+/org.glimpse_editor.Glimpse.appdata.xml
+/org.glimpse_editor.Glimpse.desktop.in
+/org.glimpse_editor.Glimpse.desktop
+/glimpse-data-extras.metainfo.xml.in
+/glimpse-data-extras.metainfo.xml
 /.thumbnails
+/test-appdata.sh
