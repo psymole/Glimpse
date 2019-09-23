@@ -385,6 +385,7 @@ G_BEGIN_DECLS
 #define GIMP_ICON_VIEW_FULLSCREEN           "view-fullscreen"
 
 #define GIMP_ICON_WILBER                    "gimp-wilber"
+#define GLIMPSE_ICON_DEFAULT                "glimpse-icon"
 #define GIMP_ICON_WILBER_EEK                "gimp-wilber-eek"
 
 #define GIMP_ICON_WINDOW_CLOSE              "window-close"

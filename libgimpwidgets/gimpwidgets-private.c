@@ -79,7 +79,7 @@ gimp_widgets_init (GimpHelpFunc          standard_help_func,
 
   gimp_icons_init ();
 
-  gtk_window_set_default_icon_name (GIMP_ICON_WILBER);
+  gtk_window_set_default_icon_name (GLIMPSE_ICON_DEFAULT);
 
   gimp_widgets_init_foreign_enums ();
 
