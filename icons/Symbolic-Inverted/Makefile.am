@@ -19,6 +19,12 @@ scalable/gimp-default-colors.svg: ../Symbolic/scalable/gimp-default-colors.svg
 scalable/gimp-toilet-paper.svg: ../Symbolic/scalable/gimp-toilet-paper.svg
 	mkdir -p `dirname $@` && cp -f $< $@
 
+# Glimpse icons are also exceptions. We should fetch them from the Legacy folder instead
+%/glimpse-icon.png: $(top_srcdir)/icons/Legacy/$(@D)/glimpse-icon.png
+	mkdir -p `dirname $@` && cp -f $< $@
+scalable/glimpse-icon.svg: ../Legacy/scalable/glimpse-icon.svg
+	mkdir -p `dirname $@` && cp -f $< $@
+
 # Other exceptions: inverted gimp-color-picker-white|black are generated
 # from each other.
 18/gimp-color-picker-black.png: $(top_srcdir)/icons/Symbolic/18/gimp-color-picker-white.png
