@@ -350,7 +350,7 @@ parts:
       - XDG_DATA_DIRS: $SNAPCRAFT_STAGE/usr/share:/usr/local/share:/usr/share
       - PYTHON: /usr/bin/python2.7
     override-build: |
-      sed -i 's|^Icon=.*|Icon=/usr/share/icons/hicolor/256x256/apps/glimpse.png|' desktop/org.glimpse_editor.Glimpse.desktop.in.in
+      sed -i 's|^Icon=.*|Icon=/usr/share/icons/hicolor/256x256/apps/org.glimpse_editor.Glimpse.png|' desktop/org.glimpse_editor.Glimpse.desktop.in.in
 
       snapcraftctl build
 
