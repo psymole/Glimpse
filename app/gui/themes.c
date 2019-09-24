@@ -328,9 +328,9 @@ themes_apply_theme (Gimp        *gimp,
 
       g_output_stream_printf (
         output, NULL, NULL, &error,
-        "# GIMP themerc\n"
+        "# Glimpse themerc\n"
         "#\n"
-        "# This file is written on GIMP startup and on every theme change.\n"
+        "# This file is written on Glimpse startup and on every theme change.\n"
         "# It is NOT supposed to be edited manually. Edit your personal\n"
         "# gtkrc file instead (%s).\n"
         "\n",
