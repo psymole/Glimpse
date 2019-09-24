@@ -30,14 +30,14 @@ GIMP_PLUGIN_DEBUG=name<,options>
 
 The steps to debug a plug-in are as follows:
 
-  0. Make sure GIMP is built with debugging information (gcc -g)
+  0. Make sure Glimpse is built with debugging information (gcc -g)
 
-  1. Start GIMP with the appropriate debugging environment variables
+  1. Start Glimpse with the appropriate debugging environment variables
 
   2. Load the standalone plug-in program in the debugger (gdb or
      the ddd frontend to gdb)
 
-  3. Invoke the plug-in procedure in GIMP. GIMP will start the plug-in
+  3. Invoke the plug-in procedure in Glimpse. Glimpse will start the plug-in
      process, then send a STOP signal to it and then print a message with
      the pid of the plug-in process to the terminal.
 
@@ -87,7 +87,7 @@ GIMP_PLUGIN_DEBUG=blur,pid
 GIMP_PLUGIN_DEBUG=blur,query
 
     Same effect as if you did run, but instead suspends when the plug-in
-    is queried on GIMP startup.
+    is queried on Glimpse startup.
 
 GIMP_PLUGIN_DEBUG=blur,init
 
