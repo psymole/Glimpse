@@ -763,7 +763,7 @@ gimp_quit (void)
  *
  * Additionally, a %GIMP_EXTENSION procedure with no parameters
  * (@n_params == 0 and @params == #NULL) is an "automatic" extension
- * that will be automatically started on each GIMP startup.
+ * that will be automatically started on each Glimpse startup.
  **/
 void
 gimp_install_procedure (const gchar        *name,

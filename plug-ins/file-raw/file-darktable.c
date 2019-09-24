@@ -247,7 +247,7 @@ query (void)
 {
   /* query() is run only the first time for efficiency. Yet this plugin
    * is dependent on the presence of darktable which may be installed
-   * or uninstalled between GIMP startups. Therefore we should move the
+   * or uninstalled between Glimpse startups. Therefore we should move the
    * usual gimp_install_procedure() to init() so that the check is done
    * at every startup instead.
    */
