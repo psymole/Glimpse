@@ -1,8 +1,14 @@
-name: glimpse
+name: Glimpse
 version: '0.1'
-summary: Open Source Image Manipulation Program
+summary: Open Source Image Editor
 description: |
-  Glimpse is a downstream fork of the GNU Image Manipulation Program
+  Glimpse is a freely distributed program for such tasks as photo
+  retouching, image composition and image authoring.
+  It has many capabilities. It can be used as a simple paint
+  program, an expert quality photo retouching program, an online
+  batch processing system, a mass production image renderer, an
+  image format converter, etc.
+
 icon: snap/local/glimpse.png
 grade: stable
 confinement: strict
