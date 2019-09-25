@@ -349,7 +349,7 @@ gimp_main (const GimpPlugInInfo *info,
        directory) as backtraces correspond to the binaries on this
        system. */
     dir = g_build_filename (g_get_user_data_dir (),
-                            GIMPDIR, GIMP_USER_VERSION, "CrashLog",
+                            GIMPDIR, GLIMPSE_APP_VERSION, "CrashLog",
                             NULL);
     /* Ensure the path exists. */
     g_mkdir_with_parents (dir, 0700);

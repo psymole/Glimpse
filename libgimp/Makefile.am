@@ -71,6 +71,7 @@ gimpincludedir = $(includedir)/gimp-$(GIMP_API_VERSION)/libgimp
 AM_CPPFLAGS = \
 	-DGIMPDIR=\""$(gimpdir)"\"				\
 	-DGIMP_USER_VERSION=\"$(GIMP_USER_VERSION)\"		\
+	-DGLIMPSE_APP_VERSION=\"$(GLIMPSE_APP_VERSION)\"	\
 	-DG_LOG_DOMAIN=\"LibGimp\"	\
 	-DGIMP_COMPILATION		\
 	-I$(top_srcdir)			\

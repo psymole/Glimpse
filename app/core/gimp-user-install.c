@@ -178,7 +178,7 @@ gimp_user_install_new (GObject  *gimp,
       library_dir = [path objectAtIndex:0];
 
       dir = g_build_filename ([library_dir UTF8String],
-                              GIMPDIR, GIMP_USER_VERSION, NULL);
+                              GIMPDIR, GLIMPSE_APP_VERSION, NULL);
 
       [pool drain];
 

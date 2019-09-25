@@ -58,7 +58,7 @@ gimp_init_signal_handlers (gchar **backtrace_file)
      directory) as backtraces correspond to the binaries on this
      system. */
   dir = g_build_filename (g_get_user_data_dir (),
-                          GIMPDIR, GIMP_USER_VERSION, "CrashLog",
+                          GIMPDIR, GLIMPSE_APP_VERSION, "CrashLog",
                           NULL);
 #else
   dir = g_build_filename (gimp_directory (), "CrashLog", NULL);
