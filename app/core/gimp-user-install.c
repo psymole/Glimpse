@@ -315,7 +315,7 @@ user_install_old_style_gimpdir (void)
 
   if (home_dir)
     {
-      gimp_dir = g_build_filename (home_dir, ".gimp-" GIMP_APP_VERSION, NULL);
+      gimp_dir = g_build_filename (home_dir, ".glimpse-" GLIMPSE_APP_VERSION, NULL);
     }
   else
     {
@@ -342,7 +342,7 @@ user_install_old_style_gimpdir (void)
 #ifndef G_OS_WIN32
       g_message ("warning: no home directory.");
 #endif
-      subdir_name = g_strconcat (".gimp-" GIMP_APP_VERSION ".", user_name, NULL);
+      subdir_name = g_strconcat (".glimpse-" GLIMPSE_APP_VERSION ".", user_name, NULL);
       gimp_dir = g_build_filename (gimp_data_directory (),
                                    subdir_name,
                                    NULL);

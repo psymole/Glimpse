@@ -49,6 +49,7 @@ gimp_debug_tool_@GIMP_TOOL_VERSION@_LDADD = \
 
 AM_CPPFLAGS = \
 	-DGIMP_APP_VERSION=\"@GIMP_APP_VERSION@\"		\
+	-DGLIMPSE_APP_VERSION=\"@GLIMPSE_APP_VERSION@\"		\
 	-DLOCALEDIR=\""$(gimplocaledir)"\"			\
 	-DPREFIX=\""$(prefix)"\"				\
 	-DEXEC_PREFIX=\""$(exec_prefix)"\"			\
