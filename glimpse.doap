@@ -1,0 +1,59 @@
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:gnome="http://api.gnome.org/doap-extensions#"
+         xmlns="http://usefulinc.com/ns/doap#">
+
+  <name xml:lang="en">Glimpse</name>
+
+  <shortdesc xml:lang="en">Create and edit images</shortdesc>
+
+  <description xml:lang="en">
+      Glimpse is a freely distributed program for such tasks as photo
+      retouching, image composition and image authoring.
+      It has many capabilities. It can be used as a simple paint
+      program, an expert quality photo retouching program, an online
+      batch processing system, a mass production image renderer, an
+      image format converter, etc.
+      Glimpse is expandable and extensible. It is designed to be
+      augmented with plug-ins and extensions to do just about
+      anything. The advanced scripting interface allows everything
+      from the simplest task to the most complex image manipulation
+      procedures to be easily scripted. Glimpse is available for Linux,
+      Microsoft Windows and OS X.
+    </_p>
+  </description>
+
+  <homepage rdf:resource="https://glimpse-editor.org" />
+  <!-- download-page rdf:resource="https:///www.gimp.org/downloads/" / -->
+  <bug-database rdf:resource="https://github.com/glimpse-editor/Glimpse/issues" />
+  <!-- mailing-list rdf:resource="https://gimp.org/mail_lists.html" / -->
+
+  <category rdf:resource="http://api.gnome.org/doap-extensions#apps" />
+
+  <programming-language>C</programming-language>
+  <programming-language>Python</programming-language>
+  <programming-language>Scheme</programming-language>
+
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Bobby Moss</foaf:name>
+      <foaf:nick>TrechNex</foaf:nick>
+    </foaf:Person>
+  </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Clipsey</foaf:name>
+      <foaf:nick>Member1221</foaf:nick>
+    </foaf:Person>
+  </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Chris</foaf:name>
+      <foaf:nick>BrainBlasted</foaf:nick>
+    </foaf:Person>
+  </maintainer>
+
+<!-- TODO: generate MAINTAINERS from this file -->
+
+</Project>
