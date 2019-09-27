@@ -8246,15 +8246,15 @@ msgid "Copyright:"
 msgstr ""
 
 #: plug-ins/dbbrowser/gimpprocview.c:319
-msgid "Internal GIMP procedure"
+msgid "Internal GNU IMP procedure"
 msgstr ""
 
 #: plug-ins/dbbrowser/gimpprocview.c:320
-msgid "GIMP Plug-In"
+msgid "GNU IMP Plug-In"
 msgstr ""
 
 #: plug-ins/dbbrowser/gimpprocview.c:321
-msgid "GIMP Extension"
+msgid "GNU IMP Extension"
 msgstr ""
 
 #: plug-ins/dbbrowser/gimpprocview.c:322

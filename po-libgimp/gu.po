@@ -626,16 +626,16 @@ msgid "Backward"
 msgstr "પાછળ જાવ"
 
 #: ../libgimpbase/gimpbaseenums.c:778
-msgid "Internal GIMP procedure"
-msgstr "આંતરિક GIMP પ્રક્રિયા"
+msgid "Internal GNU IMP procedure"
+msgstr "આંતરિક GNU IMP પ્રક્રિયા"
 
 #: ../libgimpbase/gimpbaseenums.c:779
-msgid "GIMP Plug-In"
-msgstr "GIMP પ્લગ-ઈન"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP પ્લગ-ઈન"
 
 #: ../libgimpbase/gimpbaseenums.c:780
-msgid "GIMP Extension"
-msgstr "GIMP એક્સટેન્સન"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP એક્સટેન્સન"
 
 #: ../libgimpbase/gimpbaseenums.c:781
 msgid "Temporary Procedure"

@@ -810,18 +810,18 @@ msgstr "ရူထောင့်နဲ့ လှီးဖြတ်ပါ"
 
 #: ../libgimpbase/gimpbaseenums.c:935
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "အတွင်းပိုင်း GIMP လုပ်ငန်းစဉ်"
+msgid "Internal GNU IMP procedure"
+msgstr "အတွင်းပိုင်း GNU IMP လုပ်ငန်းစဉ်"
 
 #: ../libgimpbase/gimpbaseenums.c:936
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP ယန္တရားငယ်"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP ယန္တရားငယ်"
 
 #: ../libgimpbase/gimpbaseenums.c:937
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP တိုးချဲ့ချက်"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP တိုးချဲ့ချက်"
 
 #: ../libgimpbase/gimpbaseenums.c:938
 msgctxt "pdb-proc-type"

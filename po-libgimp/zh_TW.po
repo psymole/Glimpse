@@ -1189,21 +1189,21 @@ msgstr "遞增模式"
 #: ../libgimpbase/gimpbaseenums.c:1353
 #, fuzzy
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
+msgid "Internal GNU IMP procedure"
 msgstr "找不到程序“%s”"
 
 #: ../libgimpbase/gimpbaseenums.c:1354
 #, fuzzy
 #| msgctxt "pdb-proc-type"
-#| msgid "GIMP Plug-In"
+#| msgid "GNU IMP Plug-In"
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP 外掛程式"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP 外掛程式"
 
 #: ../libgimpbase/gimpbaseenums.c:1355
 #, fuzzy
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
+msgid "GNU IMP Extension"
 msgstr "依延伸檔名"
 
 #: ../libgimpbase/gimpbaseenums.c:1356

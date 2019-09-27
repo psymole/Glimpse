@@ -1136,18 +1136,18 @@ msgstr "增值"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "GIMP 内部过程"
+msgid "Internal GNU IMP procedure"
+msgstr "GNU IMP 内部过程"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP 插件"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP 插件"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP 扩展"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP 扩展"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"

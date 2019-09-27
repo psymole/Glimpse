@@ -718,15 +718,15 @@ msgstr "வெட்டு இதனால்"
 
 #: ../libgimpbase/gimpbaseenums.c:909
 #, fuzzy
-msgid "Internal GIMP procedure"
+msgid "Internal GNU IMP procedure"
 msgstr "கிம்ப்"
 
 #: ../libgimpbase/gimpbaseenums.c:910
-msgid "GIMP Plug-In"
+msgid "GNU IMP Plug-In"
 msgstr "கிம்ப் சொருகி"
 
 #: ../libgimpbase/gimpbaseenums.c:911
-msgid "GIMP Extension"
+msgid "GNU IMP Extension"
 msgstr "கிம்ப் நீட்சி"
 
 #: ../libgimpbase/gimpbaseenums.c:912

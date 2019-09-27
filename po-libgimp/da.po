@@ -1168,18 +1168,18 @@ msgstr "Trinvis"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Intern GIMP-procedure"
+msgid "Internal GNU IMP procedure"
+msgstr "Intern GNU IMP-procedure"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP-udvidelsesmodul"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP-udvidelsesmodul"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP-udvidelse"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP-udvidelse"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"

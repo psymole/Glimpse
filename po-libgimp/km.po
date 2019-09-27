@@ -681,16 +681,16 @@ msgid "Crop with aspect"
 msgstr "ច្រឹប​តាម​សមាមាត្រ"
 
 #: ../libgimpbase/gimpbaseenums.c:881
-msgid "Internal GIMP procedure"
-msgstr "បែបបទ GIMP ខាង​ក្នុង"
+msgid "Internal GNU IMP procedure"
+msgstr "បែបបទ GNU IMP ខាង​ក្នុង"
 
 #: ../libgimpbase/gimpbaseenums.c:882
-msgid "GIMP Plug-In"
-msgstr "កម្មវិធី​ជំនួ​យ​របស់ GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "កម្មវិធី​ជំនួ​យ​របស់ GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:883
-msgid "GIMP Extension"
-msgstr "កន្ទុយ​របស់ GIMP"
+msgid "GNU IMP Extension"
+msgstr "កន្ទុយ​របស់ GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:884
 msgid "Temporary Procedure"

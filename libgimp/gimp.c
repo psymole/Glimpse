@@ -442,7 +442,7 @@ gimp_main (const GimpPlugInInfo *info,
 
   if ((argc != N_ARGS) || (strcmp (argv[ARG_GIMP], "-gimp") != 0))
     {
-      g_printerr ("%s is a GIMP plug-in and must be run by GIMP to be used\n",
+      g_printerr ("%s is a GNU IMP plug-in and must be run by GNU IMP to be used\n",
                   argv[ARG_PROGNAME]);
       return 1;
     }

@@ -827,18 +827,18 @@ msgstr "Beskjær med fast høyde- til breddeforhold"
 
 #: ../libgimpbase/gimpbaseenums.c:939
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Intern GIMP-prosedyre"
+msgid "Internal GNU IMP procedure"
+msgstr "Intern GNU IMP-prosedyre"
 
 #: ../libgimpbase/gimpbaseenums.c:940
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP-tillegg"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP-tillegg"
 
 #: ../libgimpbase/gimpbaseenums.c:941
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP-utvidelse"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP-utvidelse"
 
 #: ../libgimpbase/gimpbaseenums.c:942
 msgctxt "pdb-proc-type"

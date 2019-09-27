@@ -921,22 +921,22 @@ msgid "Crop with aspect"
 msgstr ""
 
 #: ../libgimpbase/gimpbaseenums.c:935
-#| msgid "Internal GIMP procedure"
+#| msgid "Internal GNU IMP procedure"
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Thủ tục GIMP nội bộ"
+msgid "Internal GNU IMP procedure"
+msgstr "Thủ tục GNU IMP nội bộ"
 
 #: ../libgimpbase/gimpbaseenums.c:936
-#| msgid "GIMP Plug-In"
+#| msgid "GNU IMP Plug-In"
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Phần bổ sung GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "Phần bổ sung GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:937
 #| msgid "GIMP Extension"
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Phần mở rộng GIMP"
+msgid "GNU IMP Extension"
+msgstr "Phần mở rộng GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:938
 #| msgid "Temporary Procedure"

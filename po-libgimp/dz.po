@@ -701,15 +701,15 @@ msgid "Crop with aspect"
 msgstr "རེ་བ་དང་ཅིག་ཁར་བཏོག་བཅོས་འབད་"
 
 #: ../libgimpbase/gimpbaseenums.c:881
-msgid "Internal GIMP procedure"
+msgid "Internal GNU IMP procedure"
 msgstr "ནང་འཁོད་ ཇི་ཨའི་ཨེམ་པི་གི་ བྱ་སྒོའི་ལམ་ལུགས།"
 
 #: ../libgimpbase/gimpbaseenums.c:882
-msgid "GIMP Plug-In"
+msgid "GNU IMP Plug-In"
 msgstr "ཇི་ཨཱི་ཨེམ་པི་ པ་ལག་ཨིན།"
 
 #: ../libgimpbase/gimpbaseenums.c:883
-msgid "GIMP Extension"
+msgid "GNU IMP Extension"
 msgstr "ཇི་ཨཱི་ཨེམ་པི་ རྒྱ་བསྐྱེད།"
 
 #: ../libgimpbase/gimpbaseenums.c:884

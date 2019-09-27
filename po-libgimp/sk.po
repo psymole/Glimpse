@@ -1035,18 +1035,18 @@ msgstr "Postupný"
 
 #: ../libgimpbase/gimpbaseenums.c:1283
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Vnútorná procedúra GIMPu"
+msgid "Internal GNU IMP procedure"
+msgstr "Vnútorná procedúra GNU IMPu"
 
 #: ../libgimpbase/gimpbaseenums.c:1284
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Zásuvný modul GIMPu"
+msgid "GNU IMP Plug-In"
+msgstr "Zásuvný modul GNU IMPu"
 
 #: ../libgimpbase/gimpbaseenums.c:1285
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Rozšírenie GIMPu"
+msgid "GNU IMP Extension"
+msgstr "Rozšírenie GNU IMPu"
 
 #: ../libgimpbase/gimpbaseenums.c:1286
 msgctxt "pdb-proc-type"

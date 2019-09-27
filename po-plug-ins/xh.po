@@ -8527,17 +8527,17 @@ msgid "Copyright:"
 msgstr "_Qaqambile:"
 
 #: ../plug-ins/dbbrowser/gimpprocview.c:320
-msgid "Internal GIMP procedure"
+msgid "Internal GNU IMP procedure"
 msgstr ""
 
 #: ../plug-ins/dbbrowser/gimpprocview.c:321
-msgid "GIMP Plug-In"
+msgid "GNU IMP Plug-In"
 msgstr ""
 
 #: ../plug-ins/dbbrowser/gimpprocview.c:322
 #, fuzzy
-msgid "GIMP Extension"
-msgstr "Ipateni ye-GIMP"
+msgid "GNU IMP Extension"
+msgstr "Ipateni ye-GNU IMP"
 
 #: ../plug-ins/dbbrowser/gimpprocview.c:323
 #, fuzzy

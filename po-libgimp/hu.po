@@ -1147,18 +1147,18 @@ msgstr "Összeadódó"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Belső GIMP-eljárás"
+msgid "Internal GNU IMP procedure"
+msgstr "Belső GNU IMP-eljárás"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP-bővítmény"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP-bővítmény"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP-kiterjesztés"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP-kiterjesztés"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"

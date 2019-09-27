@@ -829,18 +829,18 @@ msgstr "Troc'hañ gant un neuz"
 
 #: ../libgimpbase/gimpbaseenums.c:935
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Treugennad diabarzh GIMP"
+msgid "Internal GNU IMP procedure"
+msgstr "Treugennad diabarzh GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:936
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Enlugellad GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "Enlugellad GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:937
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Askouezh GIMP"
+msgid "GNU IMP Extension"
+msgstr "Askouezh GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:938
 msgctxt "pdb-proc-type"

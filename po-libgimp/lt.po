@@ -918,22 +918,22 @@ msgid "Crop with aspect"
 msgstr "Apkirpti išsaugant proporciją"
 
 #: ../libgimpbase/gimpbaseenums.c:935
-#| msgid "Internal GIMP procedure"
+#| msgid "Internal GNU IMP procedure"
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Vidinė GIMP procedūra"
+msgid "Internal GNU IMP procedure"
+msgstr "Vidinė GNU IMP procedūra"
 
 #: ../libgimpbase/gimpbaseenums.c:936
-#| msgid "GIMP Plug-In"
+#| msgid "GNU IMP Plug-In"
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP įskiepis"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP įskiepis"
 
 #: ../libgimpbase/gimpbaseenums.c:937
-#| msgid "GIMP Extension"
+#| msgid "GNU IMP Extension"
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP plėtinys"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP plėtinys"
 
 #: ../libgimpbase/gimpbaseenums.c:938
 #| msgid "Temporary Procedure"

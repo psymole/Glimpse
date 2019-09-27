@@ -686,16 +686,16 @@ msgid "Crop with aspect"
 msgstr "Crop with aspect"
 
 #: ../libgimpbase/gimpbaseenums.c:881
-msgid "Internal GIMP procedure"
-msgstr "Internal GIMP procedure"
+msgid "Internal GNU IMP procedure"
+msgstr "Internal GNU IMP procedure"
 
 #: ../libgimpbase/gimpbaseenums.c:882
-msgid "GIMP Plug-In"
-msgstr "GIMP Plug-In"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP Plug-In"
 
 #: ../libgimpbase/gimpbaseenums.c:883
-msgid "GIMP Extension"
-msgstr "GIMP Extension"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP Extension"
 
 #: ../libgimpbase/gimpbaseenums.c:884
 msgid "Temporary Procedure"

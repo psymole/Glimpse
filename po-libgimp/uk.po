@@ -1157,18 +1157,18 @@ msgstr "Поступова"
 
 #: ../libgimpbase/gimpbaseenums.c:1419
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Внутрішня процедура GIMP"
+msgid "Internal GNU IMP procedure"
+msgstr "Внутрішня процедура GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1420
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Додаток GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "Додаток GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1421
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Розширення GIMP"
+msgid "GNU IMP Extension"
+msgstr "Розширення GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1422
 msgctxt "pdb-proc-type"

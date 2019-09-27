@@ -1141,18 +1141,18 @@ msgstr "Papildinošs"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Iekšējā GIMP procedūra"
+msgid "Internal GNU IMP procedure"
+msgstr "Iekšējā GNU IMP procedūra"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP spraudnis"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP spraudnis"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP paplašinājums"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP paplašinājums"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"

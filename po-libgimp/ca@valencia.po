@@ -830,18 +830,18 @@ msgstr "Escapça segons l'aspecte"
 
 #: ../libgimpbase/gimpbaseenums.c:935
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Procediment intern del GIMP"
+msgid "Internal GNU IMP procedure"
+msgstr "Procediment intern del GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:936
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Connector del GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "Connector del GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:937
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Extensió del GIMP"
+msgid "GNU IMP Extension"
+msgstr "Extensió del GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:938
 msgctxt "pdb-proc-type"

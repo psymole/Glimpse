@@ -1140,18 +1140,18 @@ msgstr "Stighækkandi"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Innri GIMP aðgerð"
+msgid "Internal GNU IMP procedure"
+msgstr "Innri GNU IMP aðgerð"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP hjálparforrit"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP hjálparforrit"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP viðbót"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP viðbót"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"

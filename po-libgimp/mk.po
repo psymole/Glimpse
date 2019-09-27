@@ -722,16 +722,16 @@ msgid "Crop with aspect"
 msgstr "Исечи од око"
 
 #: ../libgimpbase/gimpbaseenums.c:909
-msgid "Internal GIMP procedure"
-msgstr "Внатрешна GIMP процедура"
+msgid "Internal GNU IMP procedure"
+msgstr "Внатрешна GNU IMP процедура"
 
 #: ../libgimpbase/gimpbaseenums.c:910
-msgid "GIMP Plug-In"
-msgstr "GIMP додаток"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP додаток"
 
 #: ../libgimpbase/gimpbaseenums.c:911
-msgid "GIMP Extension"
-msgstr "GIMP проширување"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP проширување"
 
 #: ../libgimpbase/gimpbaseenums.c:912
 msgid "Temporary Procedure"

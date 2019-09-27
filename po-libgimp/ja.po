@@ -823,18 +823,18 @@ msgstr "縦横比で切り抜き"
 
 #: ../libgimpbase/gimpbaseenums.c:935
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "内部GIMPプロシージャー"
+msgid "Internal GNU IMP procedure"
+msgstr "内部GNUIMPプロシージャー"
 
 #: ../libgimpbase/gimpbaseenums.c:936
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP プラグイン"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP プラグイン"
 
 #: ../libgimpbase/gimpbaseenums.c:937
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP 拡張"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP 拡張"
 
 #: ../libgimpbase/gimpbaseenums.c:938
 msgctxt "pdb-proc-type"

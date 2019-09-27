@@ -1006,18 +1006,18 @@ msgstr "Incremental"
 
 #: ../libgimpbase/gimpbaseenums.c:1399
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Procedimento interno GIMP"
+msgid "Internal GNU IMP procedure"
+msgstr "Procedimento interno GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1400
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Extensão do GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "Extensão do GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1401
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Extensão interna GIMP"
+msgid "GNU IMP Extension"
+msgstr "Extensão interna GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1402
 msgctxt "pdb-proc-type"

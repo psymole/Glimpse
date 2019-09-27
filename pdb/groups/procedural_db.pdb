@@ -109,8 +109,8 @@ HELP
 	{ name => 'date', type => 'string', allow_non_utf8 => 1,
 	  desc => 'The regex for procedure date' },
 	{ name => 'proc_type', type => 'string', allow_non_utf8 => 1,
-	  desc => 'The regex for procedure type: { \'Internal GIMP procedure\',
-		   \'GIMP Plug-in\', \'GIMP Extension\',
+	  desc => 'The regex for procedure type: { \'Internal GNU IMP procedure\',
+		   \'GNU IMP Plug-in\', \'GNU IMP Extension\',
 		   \'Temporary Procedure\' }' }
     );
 
