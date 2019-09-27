@@ -25447,12 +25447,12 @@ msgstr "Uložit tento soubor XCF s lepší, ale pomalejší kompresí"
 #: ../app/widgets/gimpsavedialog.c:395
 #, c-format
 msgid ""
-"The image uses features from %s and won't be readable by older Glimpse versions."
+"The image uses features from %s and won't be readable by older GNU IMP versions."
 msgstr ""
 
 #: ../app/widgets/gimpsavedialog.c:404
-msgid "Metadata won't be visible in Glimpse older than version 2.10."
-msgstr "Metadata nebudou viditelná v aplikaci Glimpse starší než verze 2.10."
+msgid "Metadata won't be visible in GNU IMP older than version 2.10."
+msgstr "Metadata nebudou viditelná v aplikaci GNU IMP starší než verze 2.10."
 
 #: ../app/widgets/gimpselectiondata.c:250
 #, c-format

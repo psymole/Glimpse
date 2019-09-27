@@ -2680,7 +2680,7 @@ msgstr "ਚਿੱਤਰ ਲੇਅਰਾਂ ਵਾਂਗ ਖੋਲ੍ਹੋ"
 #: ../app/actions/file-commands.c:285 ../app/widgets/gimpsavedialog.c:260
 #, c-format
 msgid ""
-"The image uses features from %s and cannot be saved for older Glimpse versions."
+"The image uses features from %s and cannot be saved for older GNU IMP versions."
 msgstr ""
 
 #: ../app/actions/file-commands.c:308

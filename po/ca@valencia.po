@@ -24359,7 +24359,7 @@ msgstr "Totes les imatges XCF"
 #, c-format
 msgid ""
 "The image uses features from %s, disabling compression won't make the XCF "
-"file readable by older Glimpse versions."
+"file readable by older GNU IMP versions."
 msgstr ""
 "La imatge utilitza característiques de %s, la desactivació de la compressió "
 "no farà que el fitxer XCF es puga llegir amb versions més antigues del GIMP."

@@ -17784,7 +17784,7 @@ msgstr "A-rèir leudachain"
 #: ../app/widgets/gimpfiledialog.c:590
 #, c-format
 msgid ""
-"The image uses features from %s and cannot be saved for older Glimpse versions."
+"The image uses features from %s and cannot be saved for older GNU IMP versions."
 msgstr ""
 
 #: ../app/widgets/gimpfiledialog.c:599

@@ -26342,7 +26342,7 @@ msgid ""
 "The image uses features from %s and won't be readable by older Glimpse versions."
 msgstr ""
 "La imatge utilitza característiques de %s, i no es pot llegir amb versions "
-"més antigues del GIMP."
+"més antigues del GNU IMP."
 
 #: ../app/widgets/gimpsavedialog.c:407
 msgid "Metadata won't be visible in Glimpse older than version 2.10."

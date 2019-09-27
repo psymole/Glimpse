@@ -25750,12 +25750,12 @@ msgstr ""
 #: ../app/widgets/gimpsavedialog.c:398
 #, c-format
 msgid ""
-"The image uses features from %s and won't be readable by older Glimpse versions."
+"The image uses features from %s and won't be readable by older GIMP versions."
 msgstr ""
 "प्रतिमा %s ची वैशिष्ट्ये वापरते आणि जुन्या गिम्प आवृत्त्यांद्वारे वाचण्यायोग्य होणार नाहीत."
 
 #: ../app/widgets/gimpsavedialog.c:407
-msgid "Metadata won't be visible in Glimpse older than version 2.10."
+msgid "Metadata won't be visible in GIMP older than version 2.10."
 msgstr "बृहूत-साठा [मेटा डेटा] गिम्पच्या 2.10 आवृत्तीपेक्षा जून्या आवृत्तीत दिसणार नाही."
 
 #: ../app/widgets/gimpselectiondata.c:250

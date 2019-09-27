@@ -25475,12 +25475,12 @@ msgstr "少数情况下，更好的压缩算法可能仍然会产生更大的文
 #: ../app/widgets/gimpsavedialog.c:398
 #, c-format
 msgid ""
-"The image uses features from %s and won't be readable by older Glimpse versions."
-msgstr "该图像使用了来自 %s 的特性，且不能被旧版本 GIMP 读取。"
+"The image uses features from %s and won't be readable by older GNU IMP versions."
+msgstr "该图像使用了来自 %s 的特性，且不能被旧版本 GNU IMP 读取。"
 
 #: ../app/widgets/gimpsavedialog.c:407
-msgid "Metadata won't be visible in Glimpse older than version 2.10."
-msgstr "元数据在早于 2.10 版本的 GIMP 中不可见。"
+msgid "Metadata won't be visible in GNU IMP older than version 2.10."
+msgstr "元数据在早于 2.10 版本的 GNU IMP 中不可见。"
 
 #: ../app/widgets/gimpselectiondata.c:250
 #, c-format

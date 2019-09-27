@@ -26052,14 +26052,14 @@ msgstr ""
 #: ../app/widgets/gimpsavedialog.c:398
 #, c-format
 msgid ""
-"The image uses features from %s and won't be readable by older Glimpse versions."
+"The image uses features from %s and won't be readable by older GNU IMP versions."
 msgstr ""
-"Görüntü %s'den özellikler kullandığı için daha eski Glimpse sürümlerinde okunur "
+"Görüntü %s'den özellikler kullandığı için daha eski GNU IMP sürümlerinde okunur "
 "olmayacaktır."
 
 #: ../app/widgets/gimpsavedialog.c:407
-msgid "Metadata won't be visible in Glimpse older than version 2.10."
-msgstr "Üstveri, Glimpse 2.10 öncesi sürümlerde görünür olmayacaktır."
+msgid "Metadata won't be visible in GNU IMP older than version 2.10."
+msgstr "Üstveri, GNU IMP 2.10 öncesi sürümlerde görünür olmayacaktır."
 
 #: ../app/widgets/gimpselectiondata.c:250
 #, c-format

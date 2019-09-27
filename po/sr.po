@@ -23225,7 +23225,7 @@ msgstr "Све XCF слике"
 #: ../app/widgets/gimpsavedialog.c:259
 #, fuzzy, c-format
 #| msgid "The image uses features from %s and cannot be saved for older Glimpse versions."
-msgid "The image uses features from %s, disabling compression won't make the XCF file readable by older Glimpse versions."
+msgid "The image uses features from %s, disabling compression won't make the XCF file readable by older GIMP versions."
 msgstr "Слика користи неке могућности из верзије %s, па је не можете сачувати старијим Гимпом."
 
 #: ../app/widgets/gimpsavedialog.c:266
@@ -23235,7 +23235,7 @@ msgid "Keep compression disabled to make the XCF file readable by %s and later."
 msgstr "Онемогућава додатно паковање како би могли да читате XCF датотеку верзијом %s или новијим."
 
 #: ../app/widgets/gimpsavedialog.c:276
-msgid "Metadata won't be visible in Glimpse older than version 2.10."
+msgid "Metadata won't be visible in GIMP older than version 2.10."
 msgstr "Метаподаци неће бити видљиви у верзијама Гимпа старијим од 2.10."
 
 #: ../app/widgets/gimpsavedialog.c:329

@@ -396,7 +396,7 @@ gimp_save_dialog_compression_toggled (GtkToggleButton *button,
   /* Set the compatibility label. */
   compat_hint =
     g_strdup_printf (_("The image uses features from %s and "
-                       "won't be readable by older GIMP versions."),
+                       "won't be readable by older GNU IMP versions."),
                      version_string);
 
   if (gimp_image_get_metadata (file_dialog->image))
@@ -404,7 +404,7 @@ gimp_save_dialog_compression_toggled (GtkToggleButton *button,
       gchar *temp_hint;
 
       temp_hint = g_strconcat (compat_hint, "\n",
-                               _("Metadata won't be visible in GIMP "
+                               _("Metadata won't be visible in GNU IMP "
                                  "older than version 2.10."), NULL);
       g_free (compat_hint);
       compat_hint = temp_hint;

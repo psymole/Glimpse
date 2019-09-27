@@ -2809,7 +2809,7 @@ msgstr ""
 #: ../app/actions/file-commands.c:279 ../app/widgets/gimpsavedialog.c:260
 #, c-format
 msgid ""
-"The image uses features from %s and cannot be saved for older Glimpse versions."
+"The image uses features from %s and cannot be saved for older GNU IMP versions."
 msgstr ""
 
 #: ../app/actions/file-commands.c:302

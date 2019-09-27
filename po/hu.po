@@ -26099,15 +26099,15 @@ msgstr ""
 #: ../app/widgets/gimpsavedialog.c:398
 #, c-format
 msgid ""
-"The image uses features from %s and won't be readable by older Glimpse versions."
+"The image uses features from %s and won't be readable by older GNU IMP versions."
 msgstr ""
-"A kép funkciókat használ innen: %s, ezért régebbi Glimpse verziókban nem lesz "
+"A kép funkciókat használ innen: %s, ezért régebbi GNU IMP verziókban nem lesz "
 "olvasható."
 
 #: ../app/widgets/gimpsavedialog.c:407
-msgid "Metadata won't be visible in Glimpse older than version 2.10."
+msgid "Metadata won't be visible in GNU IMP older than version 2.10."
 msgstr ""
-"A metaadatok nem lesznek láthatók a 2.10-es verziónál régebbi GIMP-ben."
+"A metaadatok nem lesznek láthatók a 2.10-es verziónál régebbi GNU IMP-ben."
 
 #: ../app/widgets/gimpselectiondata.c:250
 #, c-format

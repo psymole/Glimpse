@@ -26003,16 +26003,16 @@ msgstr ""
 #, c-format
 #| msgid ""
 #| "The image uses features from %s, disabling compression won't make the XCF "
-#| "file readable by older Glimpse versions."
+#| "file readable by older GNU IMP versions."
 msgid ""
-"The image uses features from %s and won't be readable by older Glimpse versions."
+"The image uses features from %s and won't be readable by older GNU IMP versions."
 msgstr ""
-"Šis attēls izmanto iespējas no %s, un tas nebūs lasāms ar vecākām GIMP"
+"Šis attēls izmanto iespējas no %s, un tas nebūs lasāms ar vecākām GNU IMP"
 " versijām."
 
 #: ../app/widgets/gimpsavedialog.c:407
-msgid "Metadata won't be visible in Glimpse older than version 2.10."
-msgstr "Metadati nebūs redzami Glimpse laidieniem, kas vecāki par 2.10 versiju."
+msgid "Metadata won't be visible in GNU IMP older than version 2.10."
+msgstr "Metadati nebūs redzami GNU IMP laidieniem, kas vecāki par 2.10 versiju."
 
 #: ../app/widgets/gimpselectiondata.c:250
 #, c-format

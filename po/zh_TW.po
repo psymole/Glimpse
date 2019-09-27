@@ -24198,7 +24198,7 @@ msgstr "所有 XCF 圖像"
 #, c-format
 msgid ""
 "The image uses features from %s, disabling compression won't make the XCF "
-"file readable by older Glimpse versions."
+"file readable by older GNU IMP versions."
 msgstr ""
 
 #: ../app/widgets/gimpsavedialog.c:266
@@ -24208,8 +24208,8 @@ msgid ""
 msgstr ""
 
 #: ../app/widgets/gimpsavedialog.c:276
-msgid "Metadata won't be visible in Glimpse older than version 2.10."
-msgstr "在 Glimpse 2.10 版本以前的，詮釋資料將不可見。"
+msgid "Metadata won't be visible in GNU IMP older than version 2.10."
+msgstr "在 GNU IMP 2.10 版本以前的，詮釋資料將不可見。"
 
 #: ../app/widgets/gimpsavedialog.c:329
 msgid "Save this XCF file with better but slower compression"
