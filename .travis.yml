@@ -42,7 +42,6 @@ addons:
     - libheif-dev
     - libwmf-dev
     - libxpm-dev
-    - xvfb
     - gnome-icon-theme
     - llvm
     - autopoint
@@ -73,5 +72,5 @@ before_script:
 - make && make install
 script:
 - cd $SRC_PREFIX
-- "./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc"
+- "./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --without-xvfb-run"
 - make && make install
