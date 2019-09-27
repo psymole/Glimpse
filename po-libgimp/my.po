@@ -895,11 +895,11 @@ msgstr "သင့်ရဲ့ (အရင်းခံ) မော်နီတာ�
 
 #: ../libgimpconfig/gimpcolorconfig.c:45
 msgid ""
-"When enabled, GNU IMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"ဖွင့်ထားတဲ့အ​ခါ၊ GNU IMP က ၀င်းဒိုး နည်းစနစ်မှ ပြသမှု အရောင် ခြုံငုံချက်ကို သုံးစွဲဖို့ "
+"ဖွင့်ထားတဲ့အ​ခါ၊ Glimpse က ၀င်းဒိုး နည်းစနစ်မှ ပြသမှု အရောင် ခြုံငုံချက်ကို သုံးစွဲဖို့ "
 "ကြိုးစားလိမ့်မယ်။ စီမံဖန်တီးထားတဲ့ မော်နီတာ ခြုံငုံချက်ကို နောက်မှ လျှော့ချမှု တခုအဖြစ်သာ "
 "သုံးစွဲလိမ့်မယ်။"
 

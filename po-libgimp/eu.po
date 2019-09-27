@@ -1546,11 +1546,11 @@ msgstr "(Lehen) monitorearen kolore-profila."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GNU IMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Gaituta dagoenean GNU IMPek leiho-sistemako pantailaren kolore-profila "
+"Gaituta dagoenean GIMPek leiho-sistemako pantailaren kolore-profila "
 "erabiltzen saiatuko da. Konfiguratutako monitorearen profila modu seguruan "
 "soilik erabiliko da."
 

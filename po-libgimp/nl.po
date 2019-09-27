@@ -1632,11 +1632,11 @@ msgstr "Het kleurprofiel van uw (primaire) beeldscherm."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GNU IMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Indien ingeschakeld, zal GIMP het standaardkleurprofiel voor het beeldscherm "
+"Indien ingeschakeld, zal Glimpse het standaardkleurprofiel voor het beeldscherm "
 "proberen te gebruiken. Het geconfigureerde beeldschermprofiel zal dan alleen "
 "worden gebruikt om op terug te vallen."
 

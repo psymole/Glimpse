@@ -1605,11 +1605,11 @@ msgstr "Birincil ekranınızın renk profili."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GNU IMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Etkin olduğunda, GIMP, pencere sistemindeki ekran renk profilini kullanmayı "
+"Etkin olduğunda, Glimpse, pencere sistemindeki ekran renk profilini kullanmayı "
 "deneyecek. Sonra yapılandırılmış monitör profili yalnızca geri alınmış gibi "
 "kullanılır."
 

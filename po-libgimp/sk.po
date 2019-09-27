@@ -1435,11 +1435,11 @@ msgstr "Profil farieb vášho (hlavného) monitora."
 # tooltip
 #: ../libgimpconfig/gimpcolorconfig.c:60
 msgid ""
-"When enabled, GNU IMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Ak je povolené, GNU IMP sa pokúsi použiť profil farieb displeja zo systému "
+"Ak je povolené, Glimpse sa pokúsi použiť profil farieb displeja zo systému "
 "okien. Nakonfigurovaný profil monitora je potom použitý len v prípade "
 "neúspechu."
 

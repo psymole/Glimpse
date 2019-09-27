@@ -1025,11 +1025,11 @@ msgstr "Jūsų (pirminio) monitoriaus spalvų profilis."
 
 #: ../libgimpconfig/gimpcolorconfig.c:56
 msgid ""
-"When enabled, GNU IMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Kai įjungta, GNU IMP bandys naudoti ekrano spalvų profilį gautą iš langų "
+"Kai įjungta, Glimpse bandys naudoti ekrano spalvų profilį gautą iš langų "
 "sistemos. Tuo atveju sukonfigūruotas monitoriaus profilis bus naudojamas tik "
 "kaip atsarginis variantas."
 

@@ -777,11 +777,11 @@ msgstr "Цветови профил на (основния) монитор."
 
 #: ../libgimpconfig/gimpcolorconfig.c:44
 msgid ""
-"When enabled, GNU IMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Когато е включено, GNU IMP ще се опита да използва цветовия профил на монитора "
+"Когато е включено, Glimpse ще се опита да използва цветовия профил на монитора "
 "от графичната система.  Конфигурираният профил на монитор тогава ще се с "
 "използва само в случай на проблем."
 

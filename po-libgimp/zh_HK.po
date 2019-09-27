@@ -927,7 +927,7 @@ msgstr "你(主要)螢幕的色彩配置檔。"
 
 #: ../libgimpconfig/gimpcolorconfig.c:54
 msgid ""
-"When enabled, GNU IMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr "當啟用時，將嘗試從視窗系統使用GIMP的顯示顏色配置檔。然後已配置的螢幕配置檔只作後備用。"

@@ -1603,11 +1603,11 @@ msgstr "Le profil colorimétrique de votre moniteur (primaire)."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GNU IMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Si activé, GNU IMP va essayer d’utiliser le profil colorimétrique d’affichage "
+"Si activé, Glimpse va essayer d’utiliser le profil colorimétrique d’affichage "
 "du gestionnaire de fenêtres. Le profil moniteur configuré est alors utilisé "
 "en secours."
 

@@ -1598,11 +1598,11 @@ msgstr "Litasnið fyrir (aðal)skjáinn þinn."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GNU IMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Þegar þetta er virkt, mun GNU IMP reyna að nota skjálitasnið frá "
+"Þegar þetta er virkt, mun Glimpse reyna að nota skjálitasnið frá "
 "gluggastjórnunarkerfinu.  Forstillta skjálitasniðið hér er þá einvörðungu "
 "notað til vara."
 

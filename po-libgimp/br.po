@@ -921,8 +921,8 @@ msgid "The color profile of your (primary) monitor."
 msgstr "Aelad liv ho skramm (pennañ)."
 
 #: ../libgimpconfig/gimpcolorconfig.c:56
-msgid "When enabled, GNU IMP will try to use the display color profile from the windowing system.  The configured monitor profile is then only used as a fallback."
-msgstr "Mar gweredekaet e vo klasket gant GNU IMP arverañ aelad ar skrammañ liv  diouzh ar reizhiad prenestrañ. Arveret e vo neuze aelad ar skramm kefluniet evel un adaelad."
+msgid "When enabled, Glimpse will try to use the display color profile from the windowing system.  The configured monitor profile is then only used as a fallback."
+msgstr "Mar gweredekaet e vo klasket gant Glimpse arverañ aelad ar skrammañ liv  diouzh ar reizhiad prenestrañ. Arveret e vo neuze aelad ar skramm kefluniet evel un adaelad."
 
 #: ../libgimpconfig/gimpcolorconfig.c:60
 msgid "The default RGB working space color profile."

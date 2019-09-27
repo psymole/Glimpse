@@ -777,7 +777,7 @@ msgstr "நிறம் இதில்."
 #: ../libgimpconfig/gimpcolorconfig.c:46
 #, fuzzy
 msgid ""
-"When enabled, GNU IMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr "கிம்ப் வரை நிறம் இருக்கிறது பயன்பட்டது a."

@@ -913,11 +913,11 @@ msgstr "Профіль колераў твайго (першага) маніто
 
 #: ../libgimpconfig/gimpcolorconfig.c:56
 msgid ""
-"When enabled, GNU IMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Калі задзейнічана, GNU IMP паспрабуе ўжыць профіль колераў экрана ваконнае "
+"Калі задзейнічана, Glimpse паспрабуе ўжыць профіль колераў экрана ваконнае "
 "сыстэмы. Настаўлены профіль экрана будзе ўжыты як запасны."
 
 #: ../libgimpconfig/gimpcolorconfig.c:60

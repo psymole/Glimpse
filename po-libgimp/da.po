@@ -1626,11 +1626,11 @@ msgstr "Farveprofilen for den (primære) skærm."
 # vinduessystemet til grafiske miljø (GUI)
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GNU IMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Hvis aktiveret vil GNU IMP forsøge at bruge farveprofilen for skærmen fra "
+"Hvis aktiveret vil Glimpse forsøge at bruge farveprofilen for skærmen fra "
 "vinduessystemet. Den konfigurerede skærmprofil bliver så kun brugt som "
 "nødplan."
 

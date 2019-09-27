@@ -1610,11 +1610,11 @@ msgstr "Η κατατομή χρωμάτων της (πρωτεύουσας) ο�
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GNU IMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Εάν ενεργοποιηθεί, το GNU IMP θα προσπαθήσει να χρησιμοποιήσει τη χρωματική "
+"Εάν ενεργοποιηθεί, το Glimpse θα προσπαθήσει να χρησιμοποιήσει τη χρωματική "
 "κατατομή του συστήματος παραθύρων. Το ρυθμισμένη κατατομή της οθόνης "
 "χρησιμοποιείται μόνο ως εφεδρική λύση."
 
