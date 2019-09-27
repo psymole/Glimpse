@@ -2413,7 +2413,7 @@ gimp_image_get_xcf_version (GimpImage    *image,
                                gimp_layer_get_mode (layer),
                                NULL, NULL, &enum_desc, NULL);
           ADD_REASON (g_strdup_printf (_("Layer mode '%s' was added in %s"),
-                                       enum_desc, "GIMP 2.6"));
+                                       enum_desc, "GNU IMP 2.6"));
           version = MAX (2, version);
           break;
 
@@ -2427,7 +2427,7 @@ gimp_image_get_xcf_version (GimpImage    *image,
                                gimp_layer_get_mode (layer),
                                NULL, NULL, &enum_desc, NULL);
           ADD_REASON (g_strdup_printf (_("Layer mode '%s' was added in %s"),
-                                       enum_desc, "GIMP 2.10"));
+                                       enum_desc, "GNU IMP 2.10"));
           version = MAX (9, version);
           break;
 
@@ -2470,7 +2470,7 @@ gimp_image_get_xcf_version (GimpImage    *image,
                                gimp_layer_get_mode (layer),
                                NULL, NULL, &enum_desc, NULL);
           ADD_REASON (g_strdup_printf (_("Layer mode '%s' was added in %s"),
-                                       enum_desc, "GIMP 2.10"));
+                                       enum_desc, "GNU IMP 2.10"));
           version = MAX (10, version);
           break;
 
@@ -2485,14 +2485,14 @@ gimp_image_get_xcf_version (GimpImage    *image,
       if (gimp_viewable_get_children (GIMP_VIEWABLE (layer)))
         {
           ADD_REASON (g_strdup_printf (_("Layer groups were added in %s"),
-                                       "GIMP 2.8"));
+                                       "GNU IMP 2.8"));
           version = MAX (3, version);
 
           /* need version 13 for group layers with masks */
           if (gimp_layer_get_mask (layer))
             {
               ADD_REASON (g_strdup_printf (_("Masks on layer groups were "
-                                             "added in %s"), "GIMP 2.10"));
+                                             "added in %s"), "GNU IMP 2.10"));
               version = MAX (13, version);
             }
         }
@@ -2508,7 +2508,7 @@ gimp_image_get_xcf_version (GimpImage    *image,
   if (gimp_image_get_precision (image) != GIMP_PRECISION_U8_GAMMA)
     {
       ADD_REASON (g_strdup_printf (_("High bit-depth images were added "
-                                     "in %s"), "GIMP 2.10"));
+                                     "in %s"), "GNU IMP 2.10"));
       version = MAX (7, version);
     }
 
@@ -2520,7 +2520,7 @@ gimp_image_get_xcf_version (GimpImage    *image,
   if (zlib_compression)
     {
       ADD_REASON (g_strdup_printf (_("Internal zlib compression was "
-                                     "added in %s"), "GIMP 2.10"));
+                                     "added in %s"), "GNU IMP 2.10"));
       version = MAX (8, version);
     }
 
@@ -2537,7 +2537,7 @@ gimp_image_get_xcf_version (GimpImage    *image,
   if (gimp_object_get_memsize (GIMP_OBJECT (image), NULL) >= ((gint64) 1 << 32))
     {
       ADD_REASON (g_strdup_printf (_("Support for image files larger than "
-                                     "4GB was added in %s"), "GIMP 2.10"));
+                                     "4GB was added in %s"), "GNU IMP 2.10"));
       version = MAX (11, version);
     }
 
@@ -2549,12 +2549,12 @@ gimp_image_get_xcf_version (GimpImage    *image,
     case 1:
     case 2:
       if (gimp_version)   *gimp_version   = 206;
-      if (version_string) *version_string = "GIMP 2.6";
+      if (version_string) *version_string = "GNU IMP 2.6";
       break;
 
     case 3:
       if (gimp_version)   *gimp_version   = 208;
-      if (version_string) *version_string = "GIMP 2.8";
+      if (version_string) *version_string = "GNU IMP 2.8";
       break;
 
     case 4:
@@ -2568,7 +2568,7 @@ gimp_image_get_xcf_version (GimpImage    *image,
     case 12:
     case 13:
       if (gimp_version)   *gimp_version   = 210;
-      if (version_string) *version_string = "GIMP 2.10";
+      if (version_string) *version_string = "GNU IMP 2.10";
       break;
     }
 
