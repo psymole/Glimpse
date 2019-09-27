@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
-	<assemblyIdentity version="0.1.0.0" name="org.glimpse-editor.glimpse" type="win32"/>
+	<assemblyIdentity version="0.1.0.0" name="org.glimpse_editor.glimpse" type="win32"/>
 	<description>Glimpse</description>
 	<trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
 		<security>
