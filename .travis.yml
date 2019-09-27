@@ -12,13 +12,10 @@ addons:
     - make
     - autoconf
     - libgtk2.0-dev
-    - libwxgtk3.0-dev
     - libjson-c-dev
     - libjson-glib-dev
     - gtk-doc-tools
     - intltool
-    - libgirepository1.0-dev
-    - asciidoc
     - libsuitesparse-dev
     - libumfpack5
     - libopenexr-dev
@@ -33,7 +30,6 @@ addons:
     - python-cairo-dev
     - libpoppler-glib-dev
     - libbz2-1.0
-    - cmake-extras
     - libbz2-dev
     - libwebkitgtk-dev
     - libgs-dev
@@ -42,8 +38,6 @@ addons:
     - libheif-dev
     - libwmf-dev
     - libxpm-dev
-    - gnome-icon-theme
-    - llvm
     - autopoint
 env:
 - INSTALL_PREFIX=/tmp/glimpse-prefix
