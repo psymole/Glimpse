@@ -783,7 +783,7 @@ msgid "The color profile of your (primary) monitor."
 msgstr "ཁྱོད་རའི་(གཞི་རིམ་)ལྟ་རྟོག་པའི་ ཚོས་གཞི་གསལ་སྡུད།"
 
 #: ../libgimpconfig/gimpcolorconfig.c:44
-msgid "When enabled, GIMP will try to use the display color profile from the windowing system.  The configured monitor profile is then only used as a fallback."
+msgid "When enabled, GNU IMP will try to use the display color profile from the windowing system.  The configured monitor profile is then only used as a fallback."
 msgstr "ལྕོགས་ཅན་བཟོ་ཚར་ཞིནམ་ལས་ ཇི་ཨའི་ཨེམ་པི་གིས་ སྒོ་སྒྲིག་བཟི་ནིའི་རིམ་ལུགས་ནང་ལས་ བཀྲམ་སྟོན་ཚོས་གཞི་གསལ་སྡུད་དེ་ ལག་ལེན་འཐབ་ནི་ལུ་ འབད་རྩོལ་བསྐྱེད་འོང་། རིམ་སྒྲིག་འབད་ཡོད་པའི་ལྟ་རྟོག་པའི་གསལ་སྡུད་འདི་ དེ་ལས་ གློ་བུར་རྒྱབ་ཐག་སྦེ་ལག་ལེན་འཐབ་ཨིན།"
 
 #: ../libgimpconfig/gimpcolorconfig.c:48

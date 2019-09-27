@@ -922,11 +922,11 @@ msgstr "El perfil de color del vostre monitor (primari)."
 
 #: ../libgimpconfig/gimpcolorconfig.c:56
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, GNU IMP will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Si es marca l'opció, el GIMP intentarà fer servir el perfil de color del "
+"Si es marca l'opció, el GNU IMP intentarà fer servir el perfil de color del "
 "sistema. El perfil configurat del monitor només es faria servir com a última "
 "opció."
 

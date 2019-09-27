@@ -762,7 +762,7 @@ msgstr "ទម្រង់​ពណ៌​នៃ​ម៉ូនីទ័រ (ច�
 
 #: ../libgimpconfig/gimpcolorconfig.c:44
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, GNU IMP will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr "នៅ​ពេល​បាន​បើក GIMP នឹង​ព្យាយាម​ប្រើ​​ការ​បង្ហាញ​ទម្រង់​ពណ៌​ពី​ប្រព័ន្ធ​វីនដូ ។ ទម្រង់​ម៉ូនីទ័រ​ដែល​បានកំណត់​រចនាសម្ព័ន្ធ បន្ទាប់​មក​ត្រូវ​បាន​ប្រើ​ជា​ការ​ថយក្រោយ ។"

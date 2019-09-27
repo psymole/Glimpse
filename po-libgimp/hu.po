@@ -1598,11 +1598,11 @@ msgstr "Az elsődleges monitor színprofilja."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, GNU IMP will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Ha be van kapcsolva, akkor a GIMP az ablakkezelő megjelenítési színprofilját "
+"Ha be van kapcsolva, akkor a GNU IMP az ablakkezelő megjelenítési színprofilját "
 "próbálja használni. Ekkor a beállított monitorprofil csak tartalékként lesz "
 "használva."
 

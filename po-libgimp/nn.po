@@ -1299,11 +1299,11 @@ msgstr "Fargeprofilen for (primær)skjermen"
 
 #: ../libgimpconfig/gimpcolorconfig.c:60
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, GNU IMP will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Dersom denne er slått på, vil GIMP prøva å bruka fargevisingsprofilen frå "
+"Dersom denne er slått på, vil GNU IMP prøva å bruka fargevisingsprofilen frå "
 "vindaugesystemet. Skjermprofilen vert då berre brukt for å ha noko å falla "
 "tilbake på."
 

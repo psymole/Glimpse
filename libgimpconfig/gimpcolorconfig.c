@@ -55,7 +55,7 @@
   _("The color profile of your (primary) monitor.")
 
 #define DISPLAY_PROFILE_FROM_GDK_BLURB \
-  _("When enabled, GIMP will try to use the display color profile from " \
+  _("When enabled, GNU IMP will try to use the display color profile from " \
     "the windowing system.  The configured monitor profile is then only " \
     "used as a fallback.")
 

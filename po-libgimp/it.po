@@ -1629,11 +1629,11 @@ msgstr "Il profilo di colore del monitor (principale)."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, GNU IMP will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Se attivata, GIMP tenta di usare il profilo di colore dello schermo "
+"Se attivata, GNU IMP tenta di usare il profilo di colore dello schermo "
 "dall'ambiente grafico. Il profilo del monitor configurato verrà usato solo "
 "come ripiego."
 

@@ -914,11 +914,11 @@ msgstr "Boju svog profila (osnovna) monitora."
 
 #: ../libgimpconfig/gimpcolorconfig.c:57
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, GNU IMP will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Kada je omogućena, GIMP će pokušati koristiti zaslon u boji profila iz "
+"Kada je omogućena, GNU IMP će pokušati koristiti zaslon u boji profila iz "
 "windowing sistema. U konfiguraciji monitor profila se tada koristi samo kao "
 "fallback."
 

@@ -1587,11 +1587,11 @@ msgstr "Profilul de culoare al monitorului (primar)."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, GNU IMP will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Când opțiunea este activată, GIMP va încerca să folosească profilul de "
+"Când opțiunea este activată, GNU IMP va încerca să folosească profilul de "
 "culoare de afișare din sistemul de ferestre. Profilul de monitor configurat "
 "va fi folosit atunci doar ca rezervă."
 

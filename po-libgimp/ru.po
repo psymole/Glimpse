@@ -1616,11 +1616,11 @@ msgstr "Цветовой профиль (основного) монитора."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, GNU IMP will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Если профиль указан, GIMP попытается получить цветовой профиль монитора от "
+"Если профиль указан, GNU IMP попытается получить цветовой профиль монитора от "
 "оконной системы. Указанный выше профиль монитора в таком случае используется "
 "для отката."
 
