@@ -5,40 +5,73 @@ addons:
   apt:
     update: true
     packages:
-    - git
-    - build-essential
-    - python-dev
-    - python-gtk2-dev
-    - make
+    # Build tools
     - autoconf
-    - libgtk2.0-dev
-    - libjson-c-dev
-    - libjson-glib-dev
+    - automake
+    - autopoint
+    - build-essential
+    - git
     - gtk-doc-tools
     - intltool
-    - libsuitesparse-dev
-    - libumfpack5
-    - libopenexr-dev
-    - libspiro-dev
-    - libjpeg-dev
-    - libpng-dev
-    - libtiff-dev
-    - libwebp-dev
+    - iso-codes
+    - libtool
+    - libxml2-utils
+    - perl
+    - xsltproc
+
+    # Desktop app toolkit
+    - libasound-dev
+    - libatk1.0-dev
+    - libcairo-dev
+    - libfontconfig1-dev
+    - libfreetype6-dev
+    - libgdk-pixbuf2.0-dev
+    - libglib2.0-dev
+    - libgtk2.0-dev
+    - libharfbuzz-dev
+    - libjson-glib-dev
+    - libpango1.0-dev
+    - libwebkitgtk-dev
+    - libxcursor-dev
+    - libxext-dev
+    - libxmu-dev
+    - libxt-dev
+    - shared-mime-info
+
+    # Image libraries
+    - libaa1-dev
     - libgexiv2-dev
+    - libgs-dev
+    - libheif-dev
+    - libjpeg-dev
+    - libmng-dev
+    - libopenexr-dev
+    - libopenjp2-7-dev
+    - libpng-dev
+    - libpoppler-glib-dev
     - libraw-dev
     - librsvg2-dev
-    - python-cairo-dev
-    - libpoppler-glib-dev
-    - libbz2-1.0
-    - libbz2-dev
-    - libwebkitgtk-dev
-    - libgs-dev
-    - libopenjp2-7-dev
-    - libmng-dev
-    - libheif-dev
+    - libtiff-dev
+    - libwebp-dev
     - libwmf-dev
     - libxpm-dev
-    - autopoint
+
+    # Compression libraries
+    - libbz2-dev
+    - liblzma-dev
+    - zlib1g-dev
+
+    # Misc libraries
+    - libjson-c-dev
+    - libspiro-dev
+    - libsuitesparse-dev
+    - libumfpack5
+
+    # Python support
+    - python-cairo-dev
+    - python-dev
+    - python-gtk2-dev
+
 env:
 - INSTALL_PREFIX=/tmp/glimpse-prefix
   SRC_PREFIX=$TRAVIS_BUILD_DIR
