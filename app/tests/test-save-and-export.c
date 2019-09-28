@@ -148,7 +148,7 @@ imported_file_files (gconstpointer data)
   GimpPDBStatusType  status;
 
   filename = g_build_filename (g_getenv ("GIMP_TESTING_ABS_TOP_SRCDIR"),
-                               "desktop/64x64/gimp.png",
+                               "desktop/64x64/org.glimpse_editor.Glimpse.png",
                                NULL);
   g_assert (g_file_test (filename, G_FILE_TEST_EXISTS));
   file = g_file_new_for_path (filename);
@@ -193,7 +193,7 @@ saved_imported_file_files (gconstpointer data)
   GimpPlugInProcedure *proc;
 
   import_filename = g_build_filename (g_getenv ("GIMP_TESTING_ABS_TOP_SRCDIR"),
-                                      "desktop/64x64/gimp.png",
+                                      "desktop/64x64/org.glimpse_editor.Glimpse.png",
                                       NULL);
   import_file = g_file_new_for_path (import_filename);
   g_free (import_filename);
@@ -306,7 +306,7 @@ clear_import_file_after_export (gconstpointer data)
   GimpPDBStatusType    status;
 
   filename = g_build_filename (g_getenv ("GIMP_TESTING_ABS_TOP_SRCDIR"),
-                               "desktop/64x64/gimp.png",
+                               "desktop/64x64/org.glimpse_editor.Glimpse.png",
                                NULL);
   file = g_file_new_for_path (filename);
   g_free (filename);
