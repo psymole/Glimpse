@@ -735,6 +735,7 @@
       "name": "glimpse",
       "config-opts": [
         "--disable-docs",
+        "--disable-gimp-console",
         "--disable-gtk-doc",
         "--disable-gtk-doc-html",
         "--with-icc-directory=/run/host/usr/share/color/icc/"
@@ -748,7 +749,6 @@
       "cleanup": [
         "*.la",
         "/bin/gimp*",
-        "/bin/glimpse-console*",
         "/include",
         "/lib/pkgconfig",
         "/libexec",
