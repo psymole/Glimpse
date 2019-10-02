@@ -179,61 +179,6 @@
       ]
     },
     {
-      "name": "webkitgtk",
-      "config-opts": [
-        "--disable-battery-status",
-        "--disable-credential-storage",
-        "--disable-gamepad",
-        "--disable-geolocation",
-        "--disable-gtk-doc",
-        "--disable-spellcheck",
-        "--disable-static",
-        "--disable-video",
-        "--disable-web-audio",
-        "--disable-webkit2",
-        "--with-gtk=2.0"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://www.webkitgtk.org/releases/webkitgtk-2.4.11.tar.xz",
-          "sha256": "588aea051bfbacced27fdfe0335a957dca839ebe36aa548df39c7bbafdb65bf7"
-        },
-        {
-          "type": "patch",
-          "path": "patches/webkitgtk-2.4.11.patch"
-        }
-      ],
-      "build-options": {
-        "cflags": "-O2 -g -pipe -Wno-expansion-to-defined -Wno-class-memaccess -fno-delete-null-pointer-checks -fpermissive",
-        "cflags-override": true,
-        "cxxflags": "-O2 -g -pipe -Wno-expansion-to-defined -Wno-class-memaccess -fno-delete-null-pointer-checks -fpermissive",
-        "cxxflags-override": true,
-        "env": {
-          "PYTHON": "/usr/bin/python3"
-        },
-        "arch": {
-          "aarch64": {
-            "cflags": "-O2 -g -pipe -DENABLE_YARR_JIT=0 -Wno-expansion-to-defined -Wno-class-memaccess -fno-delete-null-pointer-checks -fpermissive",
-            "cflags-override": true,
-            "cxxflags": "-O2 -g -pipe -DENABLE_YARR_JIT=0 -Wno-expansion-to-defined -Wno-class-memaccess -fno-delete-null-pointer-checks -fpermissive",
-            "cxxflags-override": true,
-            "config-opts": [
-              "--disable-jit"
-            ]
-          }
-        }
-      },
-      "cleanup": [
-        "*.la",
-        "/bin",
-        "/include",
-        "/lib/pkgconfig",
-        "/share/doc",
-        "/share/gtk-doc"
-      ]
-    },
-    {
       "name": "py2cairo",
       "rm-configure": true,
       "sources": [
@@ -738,7 +683,8 @@
         "--disable-gimp-console",
         "--disable-gtk-doc",
         "--disable-gtk-doc-html",
-        "--with-icc-directory=/run/host/usr/share/color/icc/"
+        "--with-icc-directory=/run/host/usr/share/color/icc/",
+        "--without-webkit"
       ],
       "sources": [
         {
