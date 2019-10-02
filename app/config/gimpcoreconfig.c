@@ -59,7 +59,7 @@
 #define GIMP_DEFAULT_TOOL_PRESET   "Current Options"
 #define GIMP_DEFAULT_FONT          "Sans-serif"
 #define GIMP_DEFAULT_MYPAINT_BRUSH "Fixme"
-#define GIMP_DEFAULT_COMMENT       "Created with GIMP"
+#define GIMP_DEFAULT_COMMENT       "Created with Glimpse"
 
 
 enum

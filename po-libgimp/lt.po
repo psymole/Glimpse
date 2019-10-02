@@ -918,22 +918,22 @@ msgid "Crop with aspect"
 msgstr "Apkirpti išsaugant proporciją"
 
 #: ../libgimpbase/gimpbaseenums.c:935
-#| msgid "Internal GIMP procedure"
+#| msgid "Internal GNU IMP procedure"
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Vidinė GIMP procedūra"
+msgid "Internal GNU IMP procedure"
+msgstr "Vidinė GNU IMP procedūra"
 
 #: ../libgimpbase/gimpbaseenums.c:936
-#| msgid "GIMP Plug-In"
+#| msgid "GNU IMP Plug-In"
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP įskiepis"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP įskiepis"
 
 #: ../libgimpbase/gimpbaseenums.c:937
-#| msgid "GIMP Extension"
+#| msgid "GNU IMP Extension"
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP plėtinys"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP plėtinys"
 
 #: ../libgimpbase/gimpbaseenums.c:938
 #| msgid "Temporary Procedure"
@@ -1025,11 +1025,11 @@ msgstr "Jūsų (pirminio) monitoriaus spalvų profilis."
 
 #: ../libgimpconfig/gimpcolorconfig.c:56
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Kai įjungta, GIMP bandys naudoti ekrano spalvų profilį gautą iš langų "
+"Kai įjungta, Glimpse bandys naudoti ekrano spalvų profilį gautą iš langų "
 "sistemos. Tuo atveju sukonfigūruotas monitoriaus profilis bus naudojamas tik "
 "kaip atsarginis variantas."
 

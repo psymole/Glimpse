@@ -822,18 +822,18 @@ msgstr "Odsijeci s omjerom"
 
 #: ../libgimpbase/gimpbaseenums.c:937
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Interne GIMP procedure"
+msgid "Internal GNU IMP procedure"
+msgstr "Interne GNU IMP procedure"
 
 #: ../libgimpbase/gimpbaseenums.c:938
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP dodaci"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP dodaci"
 
 #: ../libgimpbase/gimpbaseenums.c:939
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP Ekstenzija"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP Ekstenzija"
 
 #: ../libgimpbase/gimpbaseenums.c:940
 msgctxt "pdb-proc-type"
@@ -914,11 +914,11 @@ msgstr "Boju svog profila (osnovna) monitora."
 
 #: ../libgimpconfig/gimpcolorconfig.c:57
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Kada je omogućena, GIMP će pokušati koristiti zaslon u boji profila iz "
+"Kada je omogućena, Glimpse će pokušati koristiti zaslon u boji profila iz "
 "windowing sistema. U konfiguraciji monitor profila se tada koristi samo kao "
 "fallback."
 

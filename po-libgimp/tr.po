@@ -1154,18 +1154,18 @@ msgstr "Artan"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Dahili GIMP yordamı"
+msgid "Internal GNU IMP procedure"
+msgstr "Dahili GNU IMP yordamı"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP Eklentisi"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP Eklentisi"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP Uzantısı"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP Uzantısı"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"
@@ -1605,11 +1605,11 @@ msgstr "Birincil ekranınızın renk profili."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Etkin olduğunda, GIMP, pencere sistemindeki ekran renk profilini kullanmayı "
+"Etkin olduğunda, Glimpse, pencere sistemindeki ekran renk profilini kullanmayı "
 "deneyecek. Sonra yapılandırılmış monitör profili yalnızca geri alınmış gibi "
 "kullanılır."
 

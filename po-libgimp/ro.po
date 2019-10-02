@@ -1150,18 +1150,18 @@ msgstr "Incremental"
 
 #: ../libgimpbase/gimpbaseenums.c:1385
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Procedură internă GIMP"
+msgid "Internal GNU IMP procedure"
+msgstr "Procedură internă GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1386
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Plug-in GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "Plug-in GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Extensie GIMP"
+msgid "GNU IMP Extension"
+msgstr "Extensie GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
@@ -1587,11 +1587,11 @@ msgstr "Profilul de culoare al monitorului (primar)."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Când opțiunea este activată, GIMP va încerca să folosească profilul de "
+"Când opțiunea este activată, Glimpse va încerca să folosească profilul de "
 "culoare de afișare din sistemul de ferestre. Profilul de monitor configurat "
 "va fi folosit atunci doar ca rezervă."
 

@@ -178,7 +178,7 @@ gimp_user_install_new (GObject  *gimp,
       library_dir = [path objectAtIndex:0];
 
       dir = g_build_filename ([library_dir UTF8String],
-                              GIMPDIR, GIMP_USER_VERSION, NULL);
+                              GIMPDIR, GLIMPSE_APP_VERSION, NULL);
 
       [pool drain];
 
@@ -212,12 +212,12 @@ gimp_user_install_run (GimpUserInstall *install)
 
   if (install->migrate)
     user_install_log (install,
-                      _("It seems you have used GIMP %s before.  "
+                      _("It seems you have used Glimpse %s before.  "
                         "Glimpse will now migrate your user settings to '%s'."),
                       install->migrate, dirname);
   else
     user_install_log (install,
-                      _("It appears that you are using GIMP for the "
+                      _("It appears that you are using Glimpse for the "
                         "first time.  Glimpse will now create a folder "
                         "named '%s' and copy some files to it."),
                       dirname);
@@ -315,7 +315,7 @@ user_install_old_style_gimpdir (void)
 
   if (home_dir)
     {
-      gimp_dir = g_build_filename (home_dir, ".gimp-" GIMP_APP_VERSION, NULL);
+      gimp_dir = g_build_filename (home_dir, ".glimpse-" GLIMPSE_APP_VERSION, NULL);
     }
   else
     {
@@ -342,7 +342,7 @@ user_install_old_style_gimpdir (void)
 #ifndef G_OS_WIN32
       g_message ("warning: no home directory.");
 #endif
-      subdir_name = g_strconcat (".gimp-" GIMP_APP_VERSION ".", user_name, NULL);
+      subdir_name = g_strconcat (".glimpse-" GLIMPSE_APP_VERSION ".", user_name, NULL);
       gimp_dir = g_build_filename (gimp_data_directory (),
                                    subdir_name,
                                    NULL);

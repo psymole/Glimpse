@@ -921,22 +921,22 @@ msgid "Crop with aspect"
 msgstr ""
 
 #: ../libgimpbase/gimpbaseenums.c:935
-#| msgid "Internal GIMP procedure"
+#| msgid "Internal GNU IMP procedure"
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Thủ tục GIMP nội bộ"
+msgid "Internal GNU IMP procedure"
+msgstr "Thủ tục GNU IMP nội bộ"
 
 #: ../libgimpbase/gimpbaseenums.c:936
-#| msgid "GIMP Plug-In"
+#| msgid "GNU IMP Plug-In"
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Phần bổ sung GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "Phần bổ sung GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:937
 #| msgid "GIMP Extension"
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Phần mở rộng GIMP"
+msgid "GNU IMP Extension"
+msgstr "Phần mở rộng GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:938
 #| msgid "Temporary Procedure"
@@ -1026,11 +1026,11 @@ msgstr "Hồ sơ màu của màn hình (chính) của bạn."
 #| "windowing system. The configured monitor profile is then only used as a "
 #| "fallback."
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Khi bật, GIMP sẽ thử dùng hồ sơ màu bộ trình bày từ hệ thống cửa sổ. Hồ sơ "
+"Khi bật, Glimpse sẽ thử dùng hồ sơ màu bộ trình bày từ hệ thống cửa sổ. Hồ sơ "
 "bộ trình bày đã cấu hình thì chỉ dùng là sự chọn phòng bị."
 
 #: ../libgimpconfig/gimpcolorconfig.c:60

@@ -227,6 +227,7 @@ icons16_DATA = \
 	16/gimp-video.png				\
 	16/gimp-warning.png				\
 	16/gimp-web.png					\
+	16/glimpse-icon.png				\
 	16/gimp-wilber.png
 
 icons18_DATA = \
@@ -283,6 +284,7 @@ icons22_DATA = \
 	22/gimp-prefs-toolbox.png		\
 	22/gimp-prefs-window-management.png	\
 	22/gimp-tool-preset.png			\
+	22/glimpse-icon.png				\
 	22/gimp-wilber.png
 
 tools22_DATA = \
@@ -419,6 +421,7 @@ icons32_DATA = \
 	32/gimp-layer.png		\
 	32/gimp-text-layer.png		\
 	32/gimp-user-manual.png		\
+	32/glimpse-icon.png				\
 	32/gimp-wilber.png
 
 icons48_DATA = \
@@ -470,6 +473,7 @@ icons48_DATA = \
 	48/gimp-prefs-toolbox.png		\
 	48/gimp-prefs-window-management.png	\
 	48/gimp-text-layer.png			\
+	48/glimpse-icon.png				\
 	48/gimp-wilber.png
 
 icons64_DATA = \
@@ -481,23 +485,28 @@ icons64_DATA = \
 	64/gimp-user-manual.png		\
 	64/gimp-warning.png		\
 	64/gimp-wilber-eek.png		\
+	64/glimpse-icon.png				\
 	64/gimp-wilber.png		\
 	64/gimp-wilber-outline.png
 
 icons96_DATA = \
 	96/gimp-wilber.png		\
+	96/glimpse-icon.png		\
 	96/gimp-wilber-outline.png
 
 icons128_DATA = \
 	128/gimp-wilber.png		\
+	128/glimpse-icon.png		\
 	128/gimp-wilber-outline.png
 
 icons192_DATA = \
 	192/gimp-wilber.png		\
+	192/glimpse-icon.png		\
 	192/gimp-wilber-outline.png
 
 icons256_DATA = \
 	256/gimp-wilber.png		\
+	256/glimpse-icon.png		\
 	256/gimp-wilber-outline.png
 
 

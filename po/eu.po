@@ -25300,12 +25300,12 @@ msgstr "Muturreko kasuetan, konpresio-algoritmo hobeak fitxategi tamaina handiag
 #: ../app/widgets/gimpsavedialog.c:398
 #, c-format
 msgid ""
-"The image uses features from %s and won't be readable by older Glimpse versions."
-msgstr "Irudiak %s bertsioko ezaugarriak ditu eta Glimpse bertsio zaharrek ez dute irakurriko."
+"The image uses features from %s and won't be readable by older GNU IMP versions."
+msgstr "Irudiak %s bertsioko ezaugarriak ditu eta GNU IMP bertsio zaharrek ez dute irakurriko."
 
 #: ../app/widgets/gimpsavedialog.c:407
-msgid "Metadata won't be visible in Glimpse older than version 2.10."
-msgstr "Metadatuak ez dira ikusiko Glimpse 2.10 baino zaharragoak diren bertsioetan."
+msgid "Metadata won't be visible in GNU IMP older than version 2.10."
+msgstr "Metadatuak ez dira ikusiko GNU IMP 2.10 baino zaharragoak diren bertsioetan."
 
 #: ../app/widgets/gimpselectiondata.c:250
 #, c-format

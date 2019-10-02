@@ -1142,18 +1142,18 @@ msgstr "Incremental"
 
 #: ../libgimpbase/gimpbaseenums.c:1385
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Procedimento interno do GIMP"
+msgid "Internal GNU IMP procedure"
+msgstr "Procedimento interno do GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1386
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Plug-in do GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "Plug-in do GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Extensão do GIMP"
+msgid "GNU IMP Extension"
+msgstr "Extensão do GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
@@ -1595,11 +1595,11 @@ msgstr "O perfil de cor do seu monitor (primário)."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Quando habilitado, o GIMP vai tentar usar o perfil de cores do monitor usado "
+"Quando habilitado, o Glimpse vai tentar usar o perfil de cores do monitor usado "
 "pelo sistema de janelas. O perfil do monitor configurado será usado nos "
 "casos em que isso não funcione."
 

@@ -1158,18 +1158,18 @@ msgstr "Βηματικό"
 
 #: ../libgimpbase/gimpbaseenums.c:1385
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Εσωτερική διαδικασία GIMP"
+msgid "Internal GNU IMP procedure"
+msgstr "Εσωτερική διαδικασία GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1386
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Πρόσθετο GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "Πρόσθετο GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Επέκταση GIMP"
+msgid "GNU IMP Extension"
+msgstr "Επέκταση GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
@@ -1610,11 +1610,11 @@ msgstr "Η κατατομή χρωμάτων της (πρωτεύουσας) ο�
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Εάν ενεργοποιηθεί, το GIMP θα προσπαθήσει να χρησιμοποιήσει τη χρωματική "
+"Εάν ενεργοποιηθεί, το Glimpse θα προσπαθήσει να χρησιμοποιήσει τη χρωματική "
 "κατατομή του συστήματος παραθύρων. Το ρυθμισμένη κατατομή της οθόνης "
 "χρησιμοποιείται μόνο ως εφεδρική λύση."
 

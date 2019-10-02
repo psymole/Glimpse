@@ -695,16 +695,16 @@ msgid "Crop with aspect"
 msgstr "Отрязване с аспект"
 
 #: ../libgimpbase/gimpbaseenums.c:881
-msgid "Internal GIMP procedure"
-msgstr "Вътрешна процедура на GIMP"
+msgid "Internal GNU IMP procedure"
+msgstr "Вътрешна процедура на GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:882
-msgid "GIMP Plug-In"
-msgstr "Приставка на GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "Приставка на GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:883
-msgid "GIMP Extension"
-msgstr "Разширение на GIMP"
+msgid "GNU IMP Extension"
+msgstr "Разширение на GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:884
 msgid "Temporary Procedure"
@@ -777,11 +777,11 @@ msgstr "Цветови профил на (основния) монитор."
 
 #: ../libgimpconfig/gimpcolorconfig.c:44
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Когато е включено, GIMP ще се опита да използва цветовия профил на монитора "
+"Когато е включено, Glimpse ще се опита да използва цветовия профил на монитора "
 "от графичната система.  Конфигурираният профил на монитор тогава ще се с "
 "използва само в случай на проблем."
 

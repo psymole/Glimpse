@@ -8730,16 +8730,16 @@ msgid "Copyright:"
 msgstr "Autorska prava:"
 
 #: plug-ins/dbbrowser/gimpprocview.c:319
-msgid "Internal GIMP procedure"
-msgstr "Interna GIMP procedura"
+msgid "Internal GNU IMP procedure"
+msgstr "Interna GNU IMP procedura"
 
 #: plug-ins/dbbrowser/gimpprocview.c:320
-msgid "GIMP Plug-In"
-msgstr "GIMP Priključak"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP Priključak"
 
 #: plug-ins/dbbrowser/gimpprocview.c:321
-msgid "GIMP Extension"
-msgstr "GIMP Ekstenzija"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP Ekstenzija"
 
 #: plug-ins/dbbrowser/gimpprocview.c:322
 msgid "Temporary Procedure"

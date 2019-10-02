@@ -933,18 +933,18 @@ msgstr "Aukande"
 
 #: ../libgimpbase/gimpbaseenums.c:1283
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Intern GIMP-prosedyre"
+msgid "Internal GNU IMP procedure"
+msgstr "Intern GNU IMP-prosedyre"
 
 #: ../libgimpbase/gimpbaseenums.c:1284
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Programtillegg for GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "Programtillegg for GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1285
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP-utviding"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP-utviding"
 
 #: ../libgimpbase/gimpbaseenums.c:1286
 msgctxt "pdb-proc-type"
@@ -1299,11 +1299,11 @@ msgstr "Fargeprofilen for (primær)skjermen"
 
 #: ../libgimpconfig/gimpcolorconfig.c:60
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Dersom denne er slått på, vil GIMP prøva å bruka fargevisingsprofilen frå "
+"Dersom denne er slått på, vil Glimpse prøva å bruka fargevisingsprofilen frå "
 "vindaugesystemet. Skjermprofilen vert då berre brukt for å ha noko å falla "
 "tilbake på."
 

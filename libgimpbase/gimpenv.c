@@ -658,7 +658,7 @@ gimp_cache_directory (void)
     {
       gchar *tmp = g_build_filename (g_get_user_cache_dir (),
                                      GIMP_PACKAGE,
-                                     GIMP_USER_VERSION,
+                                     GLIMPSE_APP_VERSION,
                                      NULL);
 
       gimp_cache_dir = gimp_env_get_dir ("GIMP2_CACHEDIR", NULL, tmp);
@@ -700,7 +700,7 @@ gimp_temp_directory (void)
     {
       gchar *tmp = g_build_filename (g_get_tmp_dir (),
                                      GIMP_PACKAGE,
-                                     GIMP_USER_VERSION,
+                                     GLIMPSE_APP_VERSION,
                                      NULL);
 
       gimp_temp_dir = gimp_env_get_dir ("GIMP2_TEMPDIR", NULL, tmp);

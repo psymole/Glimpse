@@ -1035,18 +1035,18 @@ msgstr "Postupný"
 
 #: ../libgimpbase/gimpbaseenums.c:1283
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Vnútorná procedúra GIMPu"
+msgid "Internal GNU IMP procedure"
+msgstr "Vnútorná procedúra GNU IMPu"
 
 #: ../libgimpbase/gimpbaseenums.c:1284
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Zásuvný modul GIMPu"
+msgid "GNU IMP Plug-In"
+msgstr "Zásuvný modul GNU IMPu"
 
 #: ../libgimpbase/gimpbaseenums.c:1285
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Rozšírenie GIMPu"
+msgid "GNU IMP Extension"
+msgstr "Rozšírenie GNU IMPu"
 
 #: ../libgimpbase/gimpbaseenums.c:1286
 msgctxt "pdb-proc-type"
@@ -1435,11 +1435,11 @@ msgstr "Profil farieb vášho (hlavného) monitora."
 # tooltip
 #: ../libgimpconfig/gimpcolorconfig.c:60
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Ak je povolené, GIMP sa pokúsi použiť profil farieb displeja zo systému "
+"Ak je povolené, Glimpse sa pokúsi použiť profil farieb displeja zo systému "
 "okien. Nakonfigurovaný profil monitora je potom použitý len v prípade "
 "neúspechu."
 

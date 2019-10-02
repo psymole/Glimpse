@@ -829,18 +829,18 @@ msgstr "Recortar con aspecto"
 
 #: ../libgimpbase/gimpbaseenums.c:935
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Procedemento interno do GIMP"
+msgid "Internal GNU IMP procedure"
+msgstr "Procedemento interno do GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:936
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Complemento do GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "Complemento do GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:937
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Extensión do GIMP"
+msgid "GNU IMP Extension"
+msgstr "Extensión do GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:938
 msgctxt "pdb-proc-type"
@@ -921,11 +921,11 @@ msgstr "O perfil de cor do seu monitor (principal)."
 
 #: ../libgimpconfig/gimpcolorconfig.c:56
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Cando se active, o GIMP tentará usar o perfil de cor da pantalla do xestor "
+"Cando se active, o Glimpse tentará usar o perfil de cor da pantalla do xestor "
 "de ventás. O perfil configurado do monitor usarase só como último recurso."
 
 #: ../libgimpconfig/gimpcolorconfig.c:60

@@ -1163,18 +1163,18 @@ msgstr "Постепенная"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Внутренняя процедура GIMP"
+msgid "Internal GNU IMP procedure"
+msgstr "Внутренняя процедура GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Модуль GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "Модуль GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Расширение GIMP"
+msgid "GNU IMP Extension"
+msgstr "Расширение GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"
@@ -1616,11 +1616,11 @@ msgstr "Цветовой профиль (основного) монитора."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Если профиль указан, GIMP попытается получить цветовой профиль монитора от "
+"Если профиль указан, Glimpse попытается получить цветовой профиль монитора от "
 "оконной системы. Указанный выше профиль монитора в таком случае используется "
 "для отката."
 

@@ -820,18 +820,18 @@ msgstr "Crop with aspect"
 
 #: ../libgimpbase/gimpbaseenums.c:935
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Internal GIMP procedure"
+msgid "Internal GNU IMP procedure"
+msgstr "Internal GNU IMP procedure"
 
 #: ../libgimpbase/gimpbaseenums.c:936
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP Plug-In"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP Plug-In"
 
 #: ../libgimpbase/gimpbaseenums.c:937
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP Extension"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP Extension"
 
 #: ../libgimpbase/gimpbaseenums.c:938
 msgctxt "pdb-proc-type"
@@ -912,11 +912,11 @@ msgstr "The colour profile of your (primary) monitor."
 
 #: ../libgimpconfig/gimpcolorconfig.c:57
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"When enabled, GIMP will try to use the display colour profile from the "
+"When enabled, Glimpse will try to use the display colour profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 

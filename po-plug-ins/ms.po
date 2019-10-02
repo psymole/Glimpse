@@ -8815,16 +8815,16 @@ msgid "Copyright:"
 msgstr "Hakcipta:"
 
 #: plug-ins/dbbrowser/gimpprocview.c:319
-msgid "Internal GIMP procedure"
-msgstr "Prosidur GIMP dalaman"
+msgid "Internal GNU IMP procedure"
+msgstr "Prosidur GNU IMP dalaman"
 
 #: plug-ins/dbbrowser/gimpprocview.c:320
-msgid "GIMP Plug-In"
-msgstr "Plug-In GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "Plug-In GNU IMP"
 
 #: plug-ins/dbbrowser/gimpprocview.c:321
-msgid "GIMP Extension"
-msgstr "Sambungan GIMP"
+msgid "GNU IMP Extension"
+msgstr "Sambungan GNU IMP"
 
 #: plug-ins/dbbrowser/gimpprocview.c:322
 msgid "Temporary Procedure"

@@ -681,16 +681,16 @@ msgid "Crop with aspect"
 msgstr "ច្រឹប​តាម​សមាមាត្រ"
 
 #: ../libgimpbase/gimpbaseenums.c:881
-msgid "Internal GIMP procedure"
-msgstr "បែបបទ GIMP ខាង​ក្នុង"
+msgid "Internal GNU IMP procedure"
+msgstr "បែបបទ GNU IMP ខាង​ក្នុង"
 
 #: ../libgimpbase/gimpbaseenums.c:882
-msgid "GIMP Plug-In"
-msgstr "កម្មវិធី​ជំនួ​យ​របស់ GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "កម្មវិធី​ជំនួ​យ​របស់ GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:883
-msgid "GIMP Extension"
-msgstr "កន្ទុយ​របស់ GIMP"
+msgid "GNU IMP Extension"
+msgstr "កន្ទុយ​របស់ GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:884
 msgid "Temporary Procedure"
@@ -762,10 +762,10 @@ msgstr "ទម្រង់​ពណ៌​នៃ​ម៉ូនីទ័រ (ច�
 
 #: ../libgimpconfig/gimpcolorconfig.c:44
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
-msgstr "នៅ​ពេល​បាន​បើក GIMP នឹង​ព្យាយាម​ប្រើ​​ការ​បង្ហាញ​ទម្រង់​ពណ៌​ពី​ប្រព័ន្ធ​វីនដូ ។ ទម្រង់​ម៉ូនីទ័រ​ដែល​បានកំណត់​រចនាសម្ព័ន្ធ បន្ទាប់​មក​ត្រូវ​បាន​ប្រើ​ជា​ការ​ថយក្រោយ ។"
+msgstr "នៅ​ពេល​បាន​បើក Glimpse នឹង​ព្យាយាម​ប្រើ​​ការ​បង្ហាញ​ទម្រង់​ពណ៌​ពី​ប្រព័ន្ធ​វីនដូ ។ ទម្រង់​ម៉ូនីទ័រ​ដែល​បានកំណត់​រចនាសម្ព័ន្ធ បន្ទាប់​មក​ត្រូវ​បាន​ប្រើ​ជា​ការ​ថយក្រោយ ។"
 
 #: ../libgimpconfig/gimpcolorconfig.c:48
 msgid "The default RGB working space color profile."

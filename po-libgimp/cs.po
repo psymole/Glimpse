@@ -833,18 +833,18 @@ msgstr "Oříznout s poměrem"
 
 #: ../libgimpbase/gimpbaseenums.c:935
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Interní procedura aplikace GIMP"
+msgid "Internal GNU IMP procedure"
+msgstr "Interní procedura aplikace GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:936
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Zásuvný modul aplikace GIMP"
+msgid "GNU IMP Plug-In"
+msgstr "Zásuvný modul aplikace GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:937
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Rozšíření aplikace GIMP"
+msgid "GNU IMP Extension"
+msgstr "Rozšíření aplikace GNU IMP"
 
 #: ../libgimpbase/gimpbaseenums.c:938
 msgctxt "pdb-proc-type"
@@ -925,11 +925,11 @@ msgstr "Profil barev vašeho (primárního) monitoru."
 
 #: ../libgimpconfig/gimpcolorconfig.c:57
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Je-li povoleno, GIMP se pokusí použít profil barev displeje z okenního "
+"Je-li povoleno, Glimpse se pokusí použít profil barev displeje z okenního "
 "systému. Nastavený profil monitoru se pak používá jen jako záloha."
 
 #: ../libgimpconfig/gimpcolorconfig.c:61

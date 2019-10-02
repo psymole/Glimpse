@@ -1181,18 +1181,18 @@ msgstr "Alkremente"
 
 #: ../libgimpbase/gimpbaseenums.c:1353
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Interna proceduro de GIMPo"
+msgid "Internal GNU IMP procedure"
+msgstr "Interna proceduro de GNU IMPo"
 
 #: ../libgimpbase/gimpbaseenums.c:1354
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "Kromprogramo de GIMPo"
+msgid "GNU IMP Plug-In"
+msgstr "Kromprogramo de GNU IMPo"
 
 #: ../libgimpbase/gimpbaseenums.c:1355
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "Kromprogramo de GIMPo"
+msgid "GNU IMP Extension"
+msgstr "Kromprogramo de GNU IMPo"
 
 #: ../libgimpbase/gimpbaseenums.c:1356
 msgctxt "pdb-proc-type"
@@ -1624,11 +1624,11 @@ msgstr "Profilo de koloro por (ĉefa) ekrano."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Se ĝi estas enŝaltite, GIMPo provos uzi profilon de koloro por ekrano el "
+"Se ĝi estas enŝaltite, Glimpse provos uzi profilon de koloro por ekrano el "
 "grafika sistemo.  Profilo de ekrano, kiu estis agordita, estos uzita nur se "
 "tiu el la grafika sistemo malsukcesis."
 

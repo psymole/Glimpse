@@ -1168,18 +1168,18 @@ msgstr "Trinvis"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Intern GIMP-procedure"
+msgid "Internal GNU IMP procedure"
+msgstr "Intern GNU IMP-procedure"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP-udvidelsesmodul"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP-udvidelsesmodul"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP-udvidelse"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP-udvidelse"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"
@@ -1626,11 +1626,11 @@ msgstr "Farveprofilen for den (primære) skærm."
 # vinduessystemet til grafiske miljø (GUI)
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Hvis aktiveret vil GIMP forsøge at bruge farveprofilen for skærmen fra "
+"Hvis aktiveret vil Glimpse forsøge at bruge farveprofilen for skærmen fra "
 "vinduessystemet. Den konfigurerede skærmprofil bliver så kun brugt som "
 "nødplan."
 

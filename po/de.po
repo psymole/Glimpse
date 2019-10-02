@@ -26366,9 +26366,9 @@ msgstr ""
 #: ../app/widgets/gimpsavedialog.c:398
 #, c-format
 msgid ""
-"The image uses features from %s and won't be readable by older Glimpse versions."
+"The image uses features from %s and won't be readable by older GNU IMP versions."
 msgstr ""
-"Das Bild verwendet Funktionen aus %s und kann in älteren Versionen von GIMP "
+"Das Bild verwendet Funktionen aus %s und kann in älteren Versionen von GNU IMP "
 "nicht gelesen werden."
 
 #: ../app/widgets/gimpsavedialog.c:407

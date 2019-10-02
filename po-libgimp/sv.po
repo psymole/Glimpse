@@ -1148,17 +1148,17 @@ msgstr "Inkrementell"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
+msgid "Internal GNU IMP procedure"
 msgstr "Intern GIMP-procedur"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
+msgid "GNU IMP Plug-In"
 msgstr "GIMP-insticksmodul"
 
 #: ../libgimpbase/gimpbaseenums.c:1391
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
+msgid "GNU IMP Extension"
 msgstr "GIMP-tillägg"
 
 #: ../libgimpbase/gimpbaseenums.c:1392
@@ -1599,11 +1599,11 @@ msgstr "Färgprofilen för din (primära) skärm."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"När aktiverad kommer GIMP att försöka använda färgprofilen för skärmen från "
+"När aktiverad kommer Glimpse att försöka använda färgprofilen för skärmen från "
 "fönstersystemet. Den konfigurerade skärmprofilen kommer då endast att "
 "användas för att falla tillbaka på."
 

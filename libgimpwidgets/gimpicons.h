@@ -385,6 +385,7 @@ G_BEGIN_DECLS
 #define GIMP_ICON_VIEW_FULLSCREEN           "view-fullscreen"
 
 #define GIMP_ICON_WILBER                    "gimp-wilber"
+#define GLIMPSE_ICON_DEFAULT                "glimpse-icon"
 #define GIMP_ICON_WILBER_EEK                "gimp-wilber-eek"
 
 #define GIMP_ICON_WINDOW_CLOSE              "window-close"
@@ -631,6 +632,7 @@ G_BEGIN_DECLS
 #define GIMP_STOCK_QUESTION                 "gimp-question"
 #define GIMP_STOCK_WARNING                  "gimp-warning"
 #define GIMP_STOCK_WILBER                   "gimp-wilber"
+#define GLIMPSE_STOCK_ICON                  "glimpse-icon"
 #define GIMP_STOCK_WILBER_EEK               "gimp-wilber-eek"
 #define GIMP_STOCK_FRAME                    "gimp-frame"
 #define GIMP_STOCK_TEXTURE                  "gimp-texture"

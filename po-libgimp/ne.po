@@ -690,15 +690,15 @@ msgid "Crop with aspect"
 msgstr "आकारलाई काँटछाँट गर्नुहोस्"
 
 #: ../libgimpbase/gimpbaseenums.c:881
-msgid "Internal GIMP procedure"
+msgid "Internal GNU IMP procedure"
 msgstr "आन्तरिक गिम्प कार्यविधि"
 
 #: ../libgimpbase/gimpbaseenums.c:882
-msgid "GIMP Plug-In"
+msgid "GNU IMP Plug-In"
 msgstr "गिम्प प्लगइन"
 
 #: ../libgimpbase/gimpbaseenums.c:883
-msgid "GIMP Extension"
+msgid "GNU IMP Extension"
 msgstr "गिम्प विस्तार"
 
 #: ../libgimpbase/gimpbaseenums.c:884
@@ -772,7 +772,7 @@ msgstr "तपाईँको (प्राथमिक) मोनिटरक�
 
 #: ../libgimpconfig/gimpcolorconfig.c:44
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""

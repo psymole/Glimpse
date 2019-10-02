@@ -1125,18 +1125,18 @@ msgstr "Inkrementala"
 
 #: ../libgimpbase/gimpbaseenums.c:1353
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "GIMPen barne-prozedura"
+msgid "Internal GNU IMP procedure"
+msgstr "GNU IMPen barne-prozedura"
 
 #: ../libgimpbase/gimpbaseenums.c:1354
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMPen plugina"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMPen plugina"
 
 #: ../libgimpbase/gimpbaseenums.c:1355
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMPen hedapena"
+msgid "GNU IMP Extension"
+msgstr "GNU IMPen hedapena"
 
 #: ../libgimpbase/gimpbaseenums.c:1356
 msgctxt "pdb-proc-type"
@@ -1546,7 +1546,7 @@ msgstr "(Lehen) monitorearen kolore-profila."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""

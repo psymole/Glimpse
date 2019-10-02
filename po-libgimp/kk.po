@@ -1008,17 +1008,17 @@ msgstr ""
 
 #: ../libgimpbase/gimpbaseenums.c:1327
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
+msgid "Internal GNU IMP procedure"
 msgstr ""
 
 #: ../libgimpbase/gimpbaseenums.c:1328
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
+msgid "GNU IMP Plug-In"
 msgstr ""
 
 #: ../libgimpbase/gimpbaseenums.c:1329
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
+msgid "GNU IMP Extension"
 msgstr ""
 
 #: ../libgimpbase/gimpbaseenums.c:1330
@@ -1410,7 +1410,7 @@ msgstr ""
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""

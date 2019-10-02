@@ -1177,18 +1177,18 @@ msgstr "Oplopend"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Interne GIMP-procedure"
+msgid "Internal GNU IMP procedure"
+msgstr "Interne GNU IMP-procedure"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP-plug-in"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP-plug-in"
 
 #: ../libgimpbase/gimpbaseenums.c:1389
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP-uitbreiding"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP-uitbreiding"
 
 #: ../libgimpbase/gimpbaseenums.c:1390
 msgctxt "pdb-proc-type"
@@ -1632,11 +1632,11 @@ msgstr "Het kleurprofiel van uw (primaire) beeldscherm."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Indien ingeschakeld, zal GIMP het standaardkleurprofiel voor het beeldscherm "
+"Indien ingeschakeld, zal Glimpse het standaardkleurprofiel voor het beeldscherm "
 "proberen te gebruiken. Het geconfigureerde beeldschermprofiel zal dan alleen "
 "worden gebruikt om op terug te vallen."
 

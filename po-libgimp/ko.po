@@ -818,17 +818,17 @@ msgstr "특정 종횡비로 잘라내기"
 
 #: ../libgimpbase/gimpbaseenums.c:935
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
+msgid "Internal GNU IMP procedure"
 msgstr "김프 내부 프로시저"
 
 #: ../libgimpbase/gimpbaseenums.c:936
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
+msgid "GNU IMP Plug-In"
 msgstr "김프 플러그인"
 
 #: ../libgimpbase/gimpbaseenums.c:937
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
+msgid "GNU IMP Extension"
 msgstr "김프 확장 기능"
 
 #: ../libgimpbase/gimpbaseenums.c:938
@@ -910,7 +910,7 @@ msgstr "기본 모니터의 색상 프로필"
 
 #: ../libgimpconfig/gimpcolorconfig.c:56
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""

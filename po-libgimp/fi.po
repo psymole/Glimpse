@@ -1207,18 +1207,18 @@ msgstr "Inkrementaalinen"
 
 #: ../libgimpbase/gimpbaseenums.c:1385
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
-msgstr "Sisäinen GIMP-proseduuri"
+msgid "Internal GNU IMP procedure"
+msgstr "Sisäinen GNU IMP-proseduuri"
 
 #: ../libgimpbase/gimpbaseenums.c:1386
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP-liitännäinen"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP-liitännäinen"
 
 #: ../libgimpbase/gimpbaseenums.c:1387
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
-msgstr "GIMP-laajennos"
+msgid "GNU IMP Extension"
+msgstr "GNU IMP-laajennos"
 
 #: ../libgimpbase/gimpbaseenums.c:1388
 msgctxt "pdb-proc-type"
@@ -1660,11 +1660,11 @@ msgstr "Ensisijaisen näytön väriprofiili."
 
 #: ../libgimpconfig/gimpcolorconfig.c:58
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr ""
-"Jos käytössä, GIMP yrittää käyttää näytön ikkunointijärjestelmän "
+"Jos käytössä, Glimpse yrittää käyttää näytön ikkunointijärjestelmän "
 "väriprofiilia. Määriteltyä näyttöprofiilia käytetään tällöin vain "
 "varavaihtoehtona."
 

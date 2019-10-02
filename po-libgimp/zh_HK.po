@@ -833,18 +833,18 @@ msgstr "保持長寬比，矩形選取不透明區域"
 #: ../libgimpbase/gimpbaseenums.c:935
 #, fuzzy
 msgctxt "pdb-proc-type"
-msgid "Internal GIMP procedure"
+msgid "Internal GNU IMP procedure"
 msgstr "找不到程序“%s”"
 
 #: ../libgimpbase/gimpbaseenums.c:936
 msgctxt "pdb-proc-type"
-msgid "GIMP Plug-In"
-msgstr "GIMP 外掛程式"
+msgid "GNU IMP Plug-In"
+msgstr "GNU IMP 外掛程式"
 
 #: ../libgimpbase/gimpbaseenums.c:937
 #, fuzzy
 msgctxt "pdb-proc-type"
-msgid "GIMP Extension"
+msgid "GNU IMP Extension"
 msgstr "根據延伸檔名"
 
 #: ../libgimpbase/gimpbaseenums.c:938
@@ -927,7 +927,7 @@ msgstr "你(主要)螢幕的色彩配置檔。"
 
 #: ../libgimpconfig/gimpcolorconfig.c:54
 msgid ""
-"When enabled, GIMP will try to use the display color profile from the "
+"When enabled, Glimpse will try to use the display color profile from the "
 "windowing system.  The configured monitor profile is then only used as a "
 "fallback."
 msgstr "當啟用時，將嘗試從視窗系統使用GIMP的顯示顏色配置檔。然後已配置的螢幕配置檔只作後備用。"

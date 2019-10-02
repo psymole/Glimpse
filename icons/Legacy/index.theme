@@ -1,6 +1,6 @@
 [Icon Theme]
 Name=Hicolor
-Comment=Legacy icon theme (GIMP 2.8)
+Comment=Legacy icon theme (Upstream 2.8)
 Example=gimp-wilber
 Hidden=true
 Inherits=Color
