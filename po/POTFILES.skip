@@ -5,6 +5,7 @@ data/tips/gimp-tips.xml.in
 desktop/org.glimpse_editor.Glimpse.appdata.xml.in
 desktop/glimpse-data-extras.metainfo.xml.in
 desktop/org.glimpse_editor.Glimpse.desktop.in
+gegl
 libgimp
 libgimpbase
 libgimpcolor
@@ -13,5 +14,6 @@ libgimpmath
 libgimpmodule
 libgimpthumb
 libgimpwidgets
+libmypaint
 modules
 plug-ins
