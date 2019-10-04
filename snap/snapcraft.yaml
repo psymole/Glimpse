@@ -41,23 +41,23 @@ layout:
     bind: $SNAP/usr/share/mypaint-data
 
 
-plugs:
-  gtk-2-engines:
-    interface: content
-    target: $SNAP/lib/gtk-2.0
-    default-provider: gtk2-common-themes
-  gtk-2-themes:
-    interface: content
-    target: $SNAP/share/themes
-    default-provider: gtk2-common-themes
-  icon-themes:
-    interface: content
-    target: $SNAP/data-dir/icons
-    default-provider: gtk-common-themes:icon-themes
-  sound-themes:
-    interface: content
-    target: $SNAP/data-dir/sounds
-    default-provider: gtk-common-themes:sounds-themes
+#plugs:
+  #gtk-2-engines:
+    #interface: content
+    #target: $SNAP/lib/gtk-2.0
+    #default-provider: gtk2-common-themes
+  #gtk-2-themes:
+    #interface: content
+    #target: $SNAP/share/themes
+    #default-provider: gtk2-common-themes
+  #icon-themes:
+    #interface: content
+    #target: $SNAP/data-dir/icons
+    #default-provider: gtk-common-themes:icon-themes
+  #sound-themes:
+    #interface: content
+    #target: $SNAP/data-dir/sounds
+    #default-provider: gtk-common-themes:sounds-themes
 
 slots:
   dbus-glimpse:
@@ -67,7 +67,8 @@ slots:
 
 apps:
   glimpse:
-    command: desktop-launch $SNAP/usr/bin/glimpse
+    command: usr/bin/glimpse
+    extensions: [gnome-3-28]
     desktop: usr/share/applications/org.glimpse_editor.Glimpse.desktop
     common-id: org.glimpse.glimpse
     environment:
@@ -78,16 +79,16 @@ apps:
     - dbus-glimpse
     plugs:
     - cups-control
-    - desktop
-    - desktop-legacy
+    #- desktop
+    #- desktop-legacy
     - gsettings
     - home
     - network
     - opengl
     - removable-media
-    - unity7
-    - wayland
-    - x11
+    #- unity7
+    #- wayland
+    #- x11
 
 parts:
   fix-pkgconfig-files:
@@ -119,49 +120,49 @@ parts:
     prime:
     - -*
 
-  desktop-gtk:
-    source: https://github.com/ubuntu/snapcraft-desktop-helpers.git
-    source-subdir: gtk
-    plugin: make
-    make-parameters: ["FLAVOR=gtk2"]
-    build-packages:
-    - libgtk2.0-dev
-    - libgtk-3-dev
-    stage-packages:
-    - libxkbcommon0  # XKB_CONFIG_ROOT
-    - ttf-ubuntu-font-family
-    - dmz-cursor-theme
-    - light-themes
-    - adwaita-icon-theme
-    - gnome-themes-standard
-    - shared-mime-info
-    - libgtk2.0-0
-    - libgtk-3-0
-    - libgdk-pixbuf2.0-0
-    - libglib2.0-bin
-    - libgtk2.0-bin
-    - libgtk-3-bin
-    - unity-gtk2-module
-    - unity-gtk3-module
-    - libappindicator3-1
-    - locales-all
-    - xdg-user-dirs
-    - ibus-gtk
-    - ibus-gtk3
-    - libibus-1.0-5
-    after: [desktop-patch]
-    override-pull: |
-      snapcraftctl pull
-      patch -Np1 < $SNAPCRAFT_STAGE/desktop-launch.patch
-    organize:
-      usr/lib/$SNAPCRAFT_ARCH_TRIPLET/gtk-2.0: usr/lib/gtk-2.0
-      usr/lib/$SNAPCRAFT_ARCH_TRIPLET/gtk-3.0: usr/lib/gtk-3.0
+  #desktop-gtk:
+    #source: https://github.com/ubuntu/snapcraft-desktop-helpers.git
+    #source-subdir: gtk
+    #plugin: make
+    #make-parameters: ["FLAVOR=gtk2"]
+    #build-packages:
+    #- libgtk2.0-dev
+    #- libgtk-3-dev
+    #stage-packages:
+    #- libxkbcommon0  # XKB_CONFIG_ROOT
+    #- ttf-ubuntu-font-family
+    #- dmz-cursor-theme
+    #- light-themes
+    #- adwaita-icon-theme
+    #- gnome-themes-standard
+    #- shared-mime-info
+    #- libgtk2.0-0
+    #- libgtk-3-0
+    #- libgdk-pixbuf2.0-0
+    #- libglib2.0-bin
+    #- libgtk2.0-bin
+    #- libgtk-3-bin
+    #- unity-gtk2-module
+    #- unity-gtk3-module
+    #- libappindicator3-1
+    #- locales-all
+    #- xdg-user-dirs
+    #- ibus-gtk
+    #- ibus-gtk3
+    #- libibus-1.0-5
+    #after: [desktop-patch]
+    #override-pull: |
+      #snapcraftctl pull
+      #patch -Np1 < $SNAPCRAFT_STAGE/desktop-launch.patch
+    #organize:
+      #usr/lib/$SNAPCRAFT_ARCH_TRIPLET/gtk-2.0: usr/lib/gtk-2.0
+      #usr/lib/$SNAPCRAFT_ARCH_TRIPLET/gtk-3.0: usr/lib/gtk-3.0
 
-  desktop-patch:
-    source: snap/local/patches
-    source-type: local
-    plugin: dump
-    prime: [-* ]
+  #desktop-patch:
+    #source: snap/local/patches/
+    #source-type: local
+    #plugin: dump
+    #prime: [-* ]
 
   gtk-locales:
     plugin: nil
@@ -223,6 +224,7 @@ parts:
       snapcraftctl build
       $SNAPCRAFT_STAGE/fix-pkgconfig-files.sh
     build-packages:
+    - git
     - gobject-introspection
     - graphviz-dev
     - libavcodec-dev
@@ -334,7 +336,7 @@ parts:
   # https://github.com/psymole/Glimpse
   glimpse:
     after:
-    - desktop-gtk
+    #- desktop-gtk
     - babl
     - gegl
     - libmypaint
@@ -387,6 +389,8 @@ parts:
     - libslang2-dev
     - libsm-dev
     - libtiff5-dev
+    #testing
+    - libatlas3-base
     - try:
       - libunwind-dev # not available in s390x
     - libwebkitgtk-dev
@@ -431,6 +435,10 @@ parts:
     - libslang2
     - libsm6
     - libtiff5
+    #testing
+    - ibus-gtk
+    - ibus-gtk3
+    - libibus-1.0-5
     - try:
       - libunwind8 # not available in s390x
     - libwebkitgtk-1.0-0
