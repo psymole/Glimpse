@@ -630,7 +630,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/babl.git",
-          "tag": "BABL_0_1_68"
+          "tag": "BABL_0_1_68",
+          "commit": "d725728eb4fe44e6e766e971c35d41e658e4b46d"
         }
       ],
       "cleanup": [
@@ -649,7 +650,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/gegl.git",
-          "tag": "GEGL_0_4_16"
+          "tag": "GEGL_0_4_16",
+          "commit": "8fae1d8b35aa9b0d094f08411f6c68af7ffbb465"
         }
       ],
       "cleanup": [
