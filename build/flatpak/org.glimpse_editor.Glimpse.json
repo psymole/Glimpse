@@ -28,8 +28,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://www.python.org/ftp/python/2.7.15/Python-2.7.15.tgz",
-          "sha256": "18617d1f15a380a919d517630a9cd85ce17ea602f9bbdc58ddc672df4b0239db"
+          "url": "https://www.python.org/ftp/python/2.7.16/Python-2.7.16.tgz",
+          "sha256": "01da813a3600876f03f46db11cc5c408175e99f03af2ba942ef324389a83bad5"
         }
       ],
       "cleanup": [
@@ -135,8 +135,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/ibus/ibus/releases/download/1.5.19/ibus-1.5.19.tar.gz",
-          "sha256": "4b66c798dab093f0fa738e5c10688d395a463287d13678c208a81051af5d2429"
+          "url": "https://github.com/ibus/ibus/releases/download/1.5.21/ibus-1.5.21.tar.gz",
+          "sha256": "adc1e5e620d6a89a49306f022b50561f2c05218dec13d0c9b136dc8b6568a2b9"
         }
       ],
       "post-install": [
@@ -178,24 +178,16 @@
       ]
     },
     {
-      "name": "py2cairo",
-      "rm-configure": true,
+      "name": "pycairo",
+      "buildsystem": "meson",
+      "config-opts": [
+        "-Dpython=python2"
+      ],
       "sources": [
         {
           "type": "archive",
-          "url": "https://cairographics.org/releases/py2cairo-1.10.0.tar.bz2",
-          "sha256": "d30439f06c2ec1a39e27464c6c828b6eface3b22ee17b2de05dc409e429a7431"
-        },
-        {
-          "commands": [
-            "libtoolize --force",
-            "aclocal",
-            "autoheader",
-            "automake --force-missing --add-missing --foreign",
-            "autoconf"
-          ],
-          "dest-filename": "autogen.sh",
-          "type": "script"
+          "url": "https://github.com/pygobject/pycairo/releases/download/v1.18.1/pycairo-1.18.1.tar.gz",
+          "sha256": "70172e58b6bad7572a3518c26729b074acdde15e6fee6cbab6d3528ad552b786"
         }
       ],
       "cleanup": [
@@ -300,14 +292,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.savannah.nongnu.org/releases/openexr/ilmbase-2.2.1.tar.gz",
-          "sha256": "cac206e63be68136ef556c2b555df659f45098c159ce24804e9d5e9e0286609e"
-        },
-        {
-          "type": "shell",
-          "commands": [
-            "cp -p /usr/share/automake-*/config.{sub,guess} ."
-          ]
+          "url": "https://github.com/openexr/openexr/releases/download/v2.3.0/ilmbase-2.3.0.tar.gz",
+          "sha256": "456978d1a978a5f823c7c675f3f36b0ae14dba36638aeaa3c4b0e784f12a3862"
         }
       ],
       "cleanup": [
@@ -325,14 +311,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.savannah.nongnu.org/releases/openexr/openexr-2.2.1.tar.gz",
-          "sha256": "8f9a5af6131583404261931d9a5c83de0a425cb4b8b25ddab2b169fbf113aecd"
-        },
-        {
-          "type": "shell",
-          "commands": [
-            "cp -p /usr/share/automake-*/config.{sub,guess} ."
-          ]
+          "url": "https://github.com/openexr/openexr/releases/download/v2.3.0/openexr-2.3.0.tar.gz",
+          "sha256": "fd6cb3a87f8c1a233be17b94c74799e6241d50fc5efd4df75c7a4b9cf4e25ea6"
         }
       ],
       "cleanup": [
@@ -357,8 +337,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://poppler.freedesktop.org/poppler-0.75.0.tar.xz",
-          "sha256": "3bbaedb0fa2797cac933a0659d144303e4d09eec6892c65600da987d8707199a"
+          "url": "https://poppler.freedesktop.org/poppler-0.81.0.tar.xz",
+          "sha256": "212d020b035b67b36c9666bd08ac778dff3222d85c01c338787d546f0f9bfe02"
         }
       ],
       "cleanup": [
@@ -559,8 +539,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/xianyi/OpenBLAS/archive/v0.3.5.tar.gz",
-          "sha256": "0950c14bd77c90a6427e26210d6dab422271bc86f9fc69126725833ecdaa0e85"
+          "url": "https://github.com/xianyi/OpenBLAS/archive/v0.3.6.tar.gz",
+          "sha256": "e64c8fe083832ffbc1459ab6c72f71d53afd3b36e8497c922a15a06b72e9002f"
         }
       ],
       "cleanup": [
@@ -621,13 +601,17 @@
     {
       "name": "libheif",
       "config-opts": [
-        "--disable-static"
+        "--disable-examples",
+        "--disable-gdk-pixbuf",
+        "--disable-go",
+        "--disable-static",
+        "--disable-tests"
       ],
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/strukturag/libheif/releases/download/v1.1.0/libheif-1.1.0.tar.gz",
-          "sha256": "3f8e62e5481b38965b05d44cddc522b15c4820ee635205f826a6b15c0d4040cb"
+          "url": "https://github.com/strukturag/libheif/releases/download/v1.5.1/libheif-1.5.1.tar.gz",
+          "sha256": "b134d0219dd2639cc13b8a8bcb8f264834593dd0417da1973fbe96e810918a8b"
         }
       ],
       "cleanup": [
@@ -646,7 +630,7 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/babl.git",
-          "tag": "BABL_0_1_66"
+          "tag": "BABL_0_1_68"
         }
       ],
       "cleanup": [
