@@ -28,7 +28,7 @@
   <!-- url type="help">https://glimpse-editor.org/TODO</url -->
   <url type="donation">https://opencollective.com/glimpse</url>
   <url type="bugtracker">@BUG_REPORT_URL@</url>
-  <!-- update_contact>TODO@glimpse-editor.org</update_contact -->
+  <update_contact>contact_AT_bobbymoss.com</update_contact>
 
   <!-- screenshots>
     <screenshot type="default">
