@@ -442,7 +442,7 @@ gimp_metadata_add_xmp_history (GimpMetadata *metadata,
 
   gexiv2_metadata_set_tag_string (GEXIV2_METADATA (metadata),
                                   tagstr,
-                                  "Gimp 2.10 "
+                                  "Glimpse " GLIMPSE_APP_VERSION " "
 #if defined(_WIN32) || defined(__CYGWIN__) || defined(__MINGW32__)
                                   "(Windows)");
 #elif defined(__linux__)
