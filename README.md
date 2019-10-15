@@ -20,6 +20,9 @@ Our official project website is now live (but still under construction) at https
 You can also follow us on the fediverse at [@glimpse@bobadon.co.uk](https://bobadon.co.uk/@glimpse)
 or on Twitter at https://twitter.com/glimpse_editor.
 
+## How can I build Glimpse?
+All of the build instructions can be found on [the Building Glimpse wiki](https://wiki.glimpse-editor.org/index.php?title=Building_Glimpse).
+
 ## How can I contribute?
 Take a look at the [issues](https://github.com/glimpse-editor/Glimpse/issues) page on Github and see where you can contribute. You can also join us [on Matrix](https://matrix.to/#/+glimpse:matrix.org) to provide us with feedback directly and participate in the decision-making process.
 

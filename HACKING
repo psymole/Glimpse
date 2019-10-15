@@ -11,7 +11,9 @@ For Linux, your first port of call should be the upstream documentation:
 https://wiki.gimp.org/wiki/Hacking:Building/Linux
 
 You can also check the glimpse-vagrant.sh file to see which environment
-variables you need to set and build steps you should follow.
+variables you need to set. Build steps you should follow can be found on 
+the Building Glimpse wiki:
+https://wiki.glimpse-editor.org/index.php?title=Building_Glimpse
 
 
 Quick start

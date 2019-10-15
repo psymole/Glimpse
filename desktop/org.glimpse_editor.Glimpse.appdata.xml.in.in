@@ -21,15 +21,14 @@
       augmented with plug-ins and extensions to do just about
       anything. The advanced scripting interface allows everything
       from the simplest task to the most complex image manipulation
-      procedures to be easily scripted. Glimpse is available for Linux,
-      Microsoft Windows and OS X.
+      procedures to be easily scripted.
     </_p>
   </description>
   <url type="homepage">https://glimpse-editor.org</url>
   <!-- url type="help">https://glimpse-editor.org/TODO</url -->
   <url type="donation">https://opencollective.com/glimpse</url>
   <url type="bugtracker">@BUG_REPORT_URL@</url>
-  <!-- update_contact>TODO@glimpse-editor.org</update_contact -->
+  <update_contact>contact_AT_bobbymoss.com</update_contact>
 
   <!-- screenshots>
     <screenshot type="default">
