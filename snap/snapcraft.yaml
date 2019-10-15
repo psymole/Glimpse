@@ -19,8 +19,6 @@ layout:
     bind: $SNAP/etc/glimpse
   /usr/bin/python2.7:
     bind-file: $SNAP/usr/bin/python2.7
-  /usr/lib/$SNAPCRAFT_ARCH_TRIPLET/webkit2gtk-4.0:
-    bind: $SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/webkit2gtk-4.0
   /usr/lib/babl-0.1:
     bind: $SNAP/usr/lib/babl-0.1
   /usr/lib/gegl-0.4:
@@ -344,9 +342,11 @@ parts:
     configflags:
     #from glimpse flatpack
     - --disable-docs
+    - --disable-gimp-console
     - --disable-gtk-doc
     - --disable-gtk-doc-html
     - --with-icc-directory=/run/host/usr/share/color/icc/
+    - --without-webkit
     #End from glimpse flatpack
     - --prefix=/usr
     - --sysconfdir=/etc
