@@ -61,13 +61,13 @@ slots:
   dbus-glimpse:
     interface: dbus
     bus: session
-    name: org.glimpse.glimpse.UI
+    name: org.glimpse_editor.Glimpse.UI
 
 apps:
   glimpse:
     command: desktop-launch $SNAP/usr/bin/glimpse
     desktop: usr/share/applications/org.glimpse_editor.Glimpse.desktop
-    common-id: org.glimpse.glimpse
+    common-id: org.glimpse_editor.Glimpse
     environment:
       GTK_EXE_PREFIX: $SNAP/usr
       GIMP2_LOCALEDIR: $SNAP/usr/share/locale
