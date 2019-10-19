@@ -14,51 +14,7 @@
     "--talk-name=org.freedesktop.FileManager1"
   ],
   "modules": [
-    {
-      "name": "python2",
-      "config-opts": [
-        "--enable-loadable-sqlite-extensions",
-        "--enable-shared",
-        "--enable-unicode=ucs4",
-        "--with-dbmliborder=gdbm",
-        "--with-ensurepip=yes",
-        "--with-system-expat",
-        "--with-system-ffi"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://www.python.org/ftp/python/2.7.16/Python-2.7.16.tgz",
-          "sha256": "01da813a3600876f03f46db11cc5c408175e99f03af2ba942ef324389a83bad5"
-        }
-      ],
-      "cleanup": [
-        "*.a",
-        "/bin/2to3*",
-        "/bin/easy_install*",
-        "/bin/idle*",
-        "/bin/pydoc*",
-        "/bin/python*-config",
-        "/bin/smtpd.py",
-        "/include",
-        "/lib/pkgconfig",
-        "/lib/python*/*/test",
-        "/lib/python*/*/tests",
-        "/lib/python*/config",
-        "/lib/python*/idlelib",
-        "/lib/python*/lib-tk",
-        "/lib/python*/lib-dynload/_*_test*.so",
-        "/lib/python*/lib-dynload/_test*.so",
-        "/lib/python*/lib2to3*",
-        "/lib/python*/tkinter*",
-        "/lib/python*/turtle*",
-        "/lib/python*/test",
-        "/share"
-      ],
-      "post-install": [
-        "chmod 644 /app/lib/libpython2.7.so.1.0"
-      ]
-    },
+    "shared-modules/python2.7/python-2.7.json",
     {
       "name": "gtk2",
       "config-opts": [
