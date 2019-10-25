@@ -1,7 +1,7 @@
 {
   "id": "org.glimpse_editor.Glimpse",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.32",
+  "runtime-version": "3.34",
   "sdk": "org.gnome.Sdk",
   "command": "glimpse",
   "finish-args": [
@@ -68,6 +68,10 @@
           "type": "archive",
           "url": "https://download.gnome.org/sources/pygtk/2.24/pygtk-2.24.0.tar.gz",
           "sha256": "6e3e54fa6e65a69ac60bd58cb2e60a57f3346ac52efe995f3d10b6c38c972fd8"
+        },
+        {
+          "type": "patch",
+          "path": "patches/pygtk-Drop-the-PangoFont-find_shaper-virtual-method.patch"
         },
         {
           "type": "shell",
