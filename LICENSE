@@ -26,5 +26,25 @@
   libglimpse directory for details.
 
 
-This license follows the license of the GNU Image Manipulation Program; which this is a fork of.
+This license follows the license of the GNU Image Manipulation Program; which
+this is a fork of.
 
+ * The Glimpse logo and related assets are licensed under the Creative Commons
+   Attribution-NonCommercial 4.0 International License. To view a copy of this
+   license, visit http://creativecommons.org/licenses/by-nc/4.0/ or send a
+   letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+ * You may include the Glimpse project name and branding if you modify, adapt
+   or package the software specifically to work on operating systems we do not
+   currently support. Further changes would require additional permission.
+
+ * The Glimpse project grants specific permission to distribute this
+   application with our name, logo and artwork within a corporate or enterprise
+   intranet environment. Image files you own that are edited, saved and/or
+   exported using this software may also be used for commercial purposes.
+
+ * Using the Glimpse name and logo without permission is strictly prohibited
+   unless explicitly treated as "fair use" or "fair dealing" under
+   international copyright laws. If you are unsure about the legality of your
+   intended use, contact the governance team of the Glimpse Project so they can
+   offer guidance.
