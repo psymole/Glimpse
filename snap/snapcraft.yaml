@@ -320,11 +320,12 @@ parts:
       snapcraftctl build
       $SNAPCRAFT_STAGE/fix-pkgconfig-files.sh
 
-  # https://github.com/Jehan/mypaint-brushes/releases
+  # https://github.com/mypaint/mypaint-brushes
   mypaint-brushes:
     after:
     - libmypaint
-    source: https://github.com/Jehan/mypaint-brushes/archive/v1.3.0.tar.gz
+    source: https://github.com/mypaint/mypaint-brushes.git
+    source-branch: v1.3.x
     plugin: autotools
     configflags:
     - --prefix=/usr
