@@ -10,3 +10,6 @@
 [submodule "gegl"]
 	path = gegl
 	url = https://gitlab.gnome.org/GNOME/gegl.git
+[submodule "build/flatpak/shared-modules"]
+	path = build/flatpak/shared-modules
+	url = https://github.com/flathub/shared-modules.git
